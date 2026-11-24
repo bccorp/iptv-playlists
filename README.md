@@ -42,10 +42,10 @@ workflow 在 **UTC 09:00（北京时间 17:00）** 每天运行一次；推送 `
 仓库为公开仓库，播放器直接填 raw 链接即可（把 `<owner>` / `<repo>` 替换为实际值）：
 
 ```
-https://raw.githubusercontent.com/<owner>/<repo>/main/cn.m3u
-https://raw.githubusercontent.com/<owner>/<repo>/main/asia.m3u
-https://raw.githubusercontent.com/<owner>/<repo>/main/eu.m3u
-https://raw.githubusercontent.com/<owner>/<repo>/main/us.m3u
+https://raw.githubusercontent.com/bccorp/iptv-playlists/main/cn.m3u
+https://raw.githubusercontent.com/bccorp/iptv-playlists/main/asia.m3u
+https://raw.githubusercontent.com/bccorp/iptv-playlistsmain/eu.m3u
+https://raw.githubusercontent.com/bccorp/iptv-playlists/main/us.m3u
 ```
 
 若播放器缓存，可在末尾追加 `?t=20260101` 之类的参数强制刷新。
