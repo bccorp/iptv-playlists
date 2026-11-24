@@ -51,21 +51,24 @@ def ensure_repo_tree():
     if os.path.exists(path):
         return
     branches = {
-        "iptv-org/iptv": "master", "vbskycn/iptv": "master",
-        "hujingguang/ChinaIPTV": "main", "zhi35/iptv": "master",
-        "CCSH/IPTV": "main", "akiralereal/iptv": "main",
+        "iptv-org": ("iptv-org/iptv", "master"),
+        "vbskycn": ("vbskycn/iptv", "master"),
+        "hujingguang": ("hujingguang/ChinaIPTV", "main"),
+        "zhi35": ("zhi35/iptv", "master"),
+        "CCSH": ("CCSH/IPTV", "main"),
+        "akiralereal": ("akiralereal/iptv", "main"),
     }
     out = {}
-    for repo, branch in branches.items():
+    for key, (repo, branch) in branches.items():
         url = f"https://api.github.com/repos/{repo}/git/trees/{branch}?recursive=1"
         last = None
         for attempt in range(3):
             try:
                 req = urllib.request.Request(url, headers={**HEADERS, "Accept": "application/vnd.github+json"})
                 d = json.load(urllib.request.urlopen(req, timeout=180))
-                out[repo] = {"paths": [x["path"] for x in d.get("tree", [])
-                                       if x["path"].lower().endswith((".m3u", ".m3u8", ".txt"))]}
-                print(f"  tree {repo}: {len(out[repo]['paths'])} files", flush=True)
+                out[key] = {"paths": [x["path"] for x in d.get("tree", [])
+                                      if x["path"].lower().endswith((".m3u", ".m3u8", ".txt"))]}
+                print(f"  tree {repo}: {len(out[key]['paths'])} files", flush=True)
                 break
             except Exception as e:
                 last = e
