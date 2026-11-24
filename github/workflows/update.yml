@@ -1,0 +1,81 @@
+name: Refresh IPTV playlists
+
+on:
+  schedule:
+    # UTC 09:00 = 北京时间 17:00（GitHub 调度可能延迟数分钟）
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+  push:
+    # 推送脚本/配置时自动跑一次；自动提交生成的 m3u 不触发循环
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
+      - 'validated_urls.json.gz'
+      - 'requirements.txt'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-playlist-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Aggregate 6 upstream sources
+        run: python scripts/aggregate.py
+
+      - name: Validate links (optional)
+        env:
+          VALIDATION_MODE: ${{ vars.VALIDATION_MODE || 'baseline' }}
+        run: |
+          case "$VALIDATION_MODE" in
+            full)
+              echo "Validating all regions from GitHub runner"
+              VAL_MODE=direct python scripts/validate.py
+              ;;
+            overseas)
+              echo "Validating asia/eu/us only; cn sources kept unvalidated"
+              VAL_MODE=direct VAL_REGIONS=asia,eu,us python scripts/validate.py
+              echo '["cn"]' > scripts/validation_skipped_regions.json
+              ;;
+            baseline)
+              echo "Using committed validated-URL baseline; no live validation"
+              echo "VALID_URLS_FILE=validated_urls.json.gz" >> "$GITHUB_ENV"
+              ;;
+            *)
+              echo "Skipping validation (dead links may remain)"
+              echo '["cn","asia","eu","us"]' > scripts/validation_skipped_regions.json
+              ;;
+          esac
+
+      - name: Finalize playlists with EPG
+        run: |
+          python scripts/finalize.py
+          python scripts/check_m3u.py cn.m3u asia.m3u eu.m3u us.m3u
+
+      - name: Commit refreshed playlists
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cn.m3u asia.m3u eu.m3u us.m3u
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Refresh IPTV playlists $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git push
+          fi
