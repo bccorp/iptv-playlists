@@ -1,0 +1,56 @@
+name: Keep schedule alive
+
+on:
+  schedule:
+    # UTC 15:00 = 北京时间 23:00，每月 1 号与 15 号各运行一次
+    - cron: '0 15 1,15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-keepalive
+  cancel-in-progress: false
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh activity record
+        run: |
+          RUN_UTC="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          RUN_CN="$(TZ=Asia/Shanghai date +%Y-%m-%dT%H:%M:%S%z)"
+          {
+            echo "# 调度保活记录"
+            echo
+            echo "本文件由定时任务自动更新，用于保持仓库活跃，避免 GitHub 因 60 天无活动停用自动调度。"
+            echo
+            echo "- 最近心跳（UTC）：$RUN_UTC"
+            echo "- 最近心跳（北京时间）：$RUN_CN"
+            echo "- 触发方式：${{ github.event_name }}"
+            echo
+            echo "## 当前订阅文件统计"
+            echo
+            echo "| 文件 | 统计 |"
+            echo "| --- | --- |"
+            for f in cn asia eu us; do
+              line="$(grep '^# 统计' "$f.m3u" | head -1 || true)"
+              echo "| $f.m3u | ${line:-无} |"
+            done
+          } > ACTIVITY.md
+
+      - name: Commit heartbeat
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ACTIVITY.md
+          if git diff --cached --quiet; then
+            git commit --allow-empty -m "Keep schedule alive $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          else
+            git commit -m "Keep schedule alive $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          fi
+          git push
