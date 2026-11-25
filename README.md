@@ -44,7 +44,7 @@ workflow 在 **UTC 09:00（北京时间 17:00）** 每天运行一次；推送 `
 ```
 https://raw.githubusercontent.com/bccorp/iptv-playlists/main/cn.m3u
 https://raw.githubusercontent.com/bccorp/iptv-playlists/main/asia.m3u
-https://raw.githubusercontent.com/bccorp/iptv-playlistsmain/eu.m3u
+https://raw.githubusercontent.com/bccorp/iptv-playlists/main/eu.m3u
 https://raw.githubusercontent.com/bccorp/iptv-playlists/main/us.m3u
 ```
 
