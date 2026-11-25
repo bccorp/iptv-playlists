@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 # 北美电视直播 — us.m3u
-# 生成时间: 2026-11-25 09:04:23
+# 生成时间: 2026-11-25 18:56:26
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
