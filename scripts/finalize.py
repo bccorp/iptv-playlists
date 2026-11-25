@@ -12,7 +12,7 @@ OUT = {
 }
 EPG_BASE = "https://epgshare01.online/epgshare01/"
 EPG = {
-    "cn": ("https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz,"
+    "cn": ("https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,"
            "https://cdn.jsdelivr.net/gh/CCSH/IPTV@main/e.xml.gz," + EPG_BASE + "epg_ripper_HK1.xml.gz"),
     "asia": ",".join(EPG_BASE + f"epg_ripper_{x}.xml.gz" for x in
                      ["JP1", "KR1", "HK1", "SG1", "IN1", "TR1", "TH1", "ID1", "PH1", "VN1", "MY1"]),
@@ -26,8 +26,9 @@ QLABEL = {4: "4K", 3: "1080p/FHD", 2: "HD", 1: "SD"}
 
 # EPG id 映射：把 m3u 的 tvg-id 改写为 EPG 的 channel id，提升播放器自动匹配率
 COUNTRY_SUFFIX = (r"(us2|us|uk|ca2|ca|mx1|mx|de|fr|es|it|nl|pl|se|no|fi|dk|cz|gr|ch|at|"
-                  r"hk|jp|kr|sg|in|tr|th|id|vn|my|au|br|ru|ua)$")
+                  r"hk|tw|cn|jp|kr|sg|in|tr|th|id|vn|my|au|br|ru|ua)$")
 QUALITY_TOKEN = r"(hd|sd|fhd|uhd|4k|hevc)"
+KEEP_CHARS = r"[^a-z0-9\u4e00-\u9fff]+"
 
 EPG_MAP = {}
 try:
@@ -52,9 +53,9 @@ def lookup_epg_id(region, candidates):
             continue
         s = str(raw).strip().lower()
         s = re.sub(r"@[a-z0-9_.\-]+$", "", s)
-        base = re.sub(r"[^a-z0-9]+", "", s)
+        base = re.sub(KEEP_CHARS, "", s)
         keys = [base, re.sub(QUALITY_TOKEN, "", base)]
-        c = re.sub(r"[^a-z0-9]+", "", re.sub(COUNTRY_SUFFIX, "", s))
+        c = re.sub(KEEP_CHARS, "", re.sub(COUNTRY_SUFFIX, "", s))
         keys += [c, re.sub(QUALITY_TOKEN, "", c)]
         for k in keys:
             if k and k in table:
