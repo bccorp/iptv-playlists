@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
 # 欧洲电视直播 — eu.m3u
-# 生成时间: 2026-11-25 06:33:14
+# 生成时间: 2026-11-25 08:36:06
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
@@ -15,19 +15,19 @@ https://dash2.antik.sk/live/1plus1_marathon/playlist.m3u8
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 tvg-id="ArmyTV.ua@SD" tvg-name="Army TV (576p)" tvg-logo="" group-title="欧洲/乌克兰",Army TV (576p)
 http://195.54.52.40/test/index.m3u8
-#EXTINF:-1 tvg-id="Channel5.ru@SD" tvg-name="Channel 5 (576p)" tvg-logo="" group-title="欧洲/乌克兰",Channel 5 (576p)
+#EXTINF:-1 tvg-id="Channel.5.HD.uk" tvg-name="Channel 5 (576p)" tvg-logo="" group-title="欧洲/乌克兰" tvg-id-orig="Channel5.ru@SD",Channel 5 (576p)
 http://31.148.5.241/kanal_5/index.m3u8
-#EXTINF:-1 tvg-id="EspresoTV.ua@SD" tvg-name="Espreso TV" tvg-logo="" group-title="欧洲/乌克兰",Espreso TV
+#EXTINF:-1 tvg-id="Espreso.TV.ch" tvg-name="Espreso TV" tvg-logo="" group-title="欧洲/乌克兰" tvg-id-orig="EspresoTV.ua@SD",Espreso TV
 https://dash4.antik.sk/live/test_espresso/playlist.m3u8
-#EXTINF:-1 tvg-id="FREEDOM.ua@SD" tvg-name="FREEDOM (1080p)" tvg-logo="" group-title="欧洲/乌克兰",FREEDOM (1080p)
+#EXTINF:-1 tvg-id="FREEDOM.gr" tvg-name="FREEDOM (1080p)" tvg-logo="" group-title="欧洲/乌克兰" tvg-id-orig="FREEDOM.ua@SD",FREEDOM (1080p)
 https://dash4.antik.sk/live/test_uatv/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.bg@SD" tvg-name="National Geographic Wild" tvg-logo="" group-title="欧洲/乌克兰",National Geographic Wild
+#EXTINF:-1 tvg-id="National.Geographic.Wild.HD.es" tvg-name="National Geographic Wild" tvg-logo="" group-title="欧洲/乌克兰" tvg-id-orig="NationalGeographicWild.bg@SD",National Geographic Wild
 http://213.91.179.28:8000/play/a0cu
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NationalGeographicWild.cz@SD" tvg-name="National Geographic Wild" tvg-logo="" group-title="欧洲/乌克兰",National Geographic Wild
+#EXTINF:-1 tvg-id="National.Geographic.Wild.cz" tvg-name="National Geographic Wild" tvg-logo="" group-title="欧洲/乌克兰" tvg-id-orig="NationalGeographicWild.cz@SD",National Geographic Wild
 http://88.212.15.50/live/test_ngw/playlist.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NationalGeographicWild.hu@SD" tvg-name="National Geographic Wild" tvg-logo="" group-title="欧洲/乌克兰",National Geographic Wild
+#EXTINF:-1 tvg-id="National.Geographic.Wild.(hu).cz" tvg-name="National Geographic Wild" tvg-logo="" group-title="欧洲/乌克兰" tvg-id-orig="NationalGeographicWild.hu@SD",National Geographic Wild
 http://88.212.7.14/live/ngw_hun/index.m3u8
 #EXTINF:-1 tvg-id="TelekanalRAI.ua@SD" tvg-name="Telekanal RAI" tvg-logo="" group-title="欧洲/乌克兰",Telekanal RAI
 http://92.253.233.136/uploads/playlist.m3u8
@@ -46,19 +46,19 @@ http://91.194.79.46:8081/stream2/channel2/playlist.m3u8
 http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru@HD" tvg-name="1HD Music Television (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",1HD Music Television (1080p)
 http://176.118.197.101/1HD/index.m3u8
-#EXTINF:-1 tvg-id="360.ru@SD" tvg-name="360° (576p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯",360° (576p) [Geo-blocked]
+#EXTINF:-1 tvg-id="360.ch" tvg-name="360° (576p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="360.ru@SD",360° (576p) [Geo-blocked]
 https://streaming.thestream.cyou/live/7000.m3u8
 #EXTINF:-1 tvg-id="6TVGorlovka.ru@SD" tvg-name="6 TV Gorlovka (720p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯",6 TV Gorlovka (720p) [Geo-blocked]
 http://91.214.48.158:4022/udp/224.2.2.4:10000
 #EXTINF:-1 tvg-id="AISTTV.ru@SD" tvg-name="AIST TV (576p)" tvg-logo="" group-title="欧洲/俄罗斯",AIST TV (576p)
 http://194.143.148.28:8080/Aist/index.m3u8
-#EXTINF:-1 tvg-id="AnimalPlanet.cz@SD" tvg-name="Animal Planet" tvg-logo="" group-title="欧洲/俄罗斯",Animal Planet
+#EXTINF:-1 tvg-id="Animal.Planet.cz" tvg-name="Animal Planet" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="AnimalPlanet.cz@SD",Animal Planet
 http://88.212.15.50/live/test_animal_planet_hd_hevc/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="AnimalPlanet.bg@SD" tvg-name="Animal Planet" tvg-logo="" group-title="欧洲/俄罗斯",Animal Planet
+#EXTINF:-1 tvg-id="Animal.Planet.HD.pl" tvg-name="Animal Planet" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="AnimalPlanet.bg@SD",Animal Planet
 http://213.91.179.28:8000/play/a05r
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="AnimalPlanet.hu@SD" tvg-name="Animal Planet" tvg-logo="" group-title="欧洲/俄罗斯",Animal Planet
+#EXTINF:-1 tvg-id="Animal.Planet.HD.pl" tvg-name="Animal Planet" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="AnimalPlanet.hu@SD",Animal Planet
 http://88.212.7.14/live/animal_hun/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGE.ru@SD" tvg-name="BRIDGE (576p)" tvg-logo="" group-title="欧洲/俄罗斯",BRIDGE (576p)
 http://178.134.1.158:8081/BRIDGE/index.m3u8
@@ -67,16 +67,18 @@ http://178.134.1.158:8081/BRIDGE/index.m3u8
 http://194.143.148.28:8080/RT_DOC/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGERock.ru@SD" tvg-name="BRIDGE Rock (576p)" tvg-logo="" group-title="欧洲/俄罗斯",BRIDGE Rock (576p)
 http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
-#EXTINF:-1 tvg-id="Bober.ru@SD" tvg-name="Bober (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Bober (576p)
+#EXTINF:-1 tvg-id="Bober.cz" tvg-name="Bober (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Bober.ru@SD",Bober (576p)
 http://88.212.15.50/live/test_bober/playlist.m3u8
-#EXTINF:-1 tvg-id="Carousel.ru@Plus4" tvg-name="Carousel (720p)" tvg-logo="" group-title="欧洲/俄罗斯",Carousel (720p)
+#EXTINF:-1 tvg-id="Carousel.cz" tvg-name="Carousel (720p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Carousel.ru@Plus4",Carousel (720p)
 http://185.37.150.46/Karusel/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Carousel.ru@SD" tvg-name="Carousel (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Carousel (576p)
+#EXTINF:-1 tvg-id="Carousel.cz" tvg-name="Carousel (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Carousel.ru@SD",Carousel (576p)
 http://31.148.5.241/kanal_8/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Carousel.ru@SD" tvg-name="Carousel (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Carousel (576p)
+#EXTINF:-1 tvg-id="Carousel.cz" tvg-name="Carousel (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Carousel.ru@SD",Carousel (576p)
 http://88.212.15.50/live/test_karusel/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-name="Cartoon Classics" tvg-logo="" group-title="欧洲/俄罗斯",Cartoon Classics
+http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Channel 5 International (576i)" tvg-logo="" group-title="欧洲/俄罗斯",Channel 5 International (576i)
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" tvg-name="Channel One (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Channel One (576p)
@@ -86,24 +88,26 @@ http://31.148.5.241/kanal_1/index.m3u8
 http://178.217.49.7/1/index.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@Europa" tvg-name="Channel One Europa (480p)" tvg-logo="" group-title="欧洲/俄罗斯",Channel One Europa (480p)
 https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 tvg-id="DaVinci.ru@SD" tvg-name="Da Vinci (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",Da Vinci (1080p)
+#EXTINF:-1 tvg-id="Da.Vinci.HD.gr" tvg-name="Da Vinci (1080p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="DaVinci.ru@SD",Da Vinci (1080p)
 https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Domkino.ru@SD" tvg-name="Dom kino (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",Dom kino (1080p)
+#EXTINF:-1 tvg-id="Dom.Kino.cz" tvg-name="Dom kino (1080p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Domkino.ru@SD",Dom kino (1080p)
 https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Domkino.ru@SD" tvg-name="Dom kino (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Dom kino (576p)
+#EXTINF:-1 tvg-id="Dom.Kino.cz" tvg-name="Dom kino (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Domkino.ru@SD",Dom kino (576p)
 http://88.212.15.50/live/test_dom_kino/playlist.m3u8
-#EXTINF:-1 tvg-id="DomkinoPremium.ru@SD" tvg-name="Dom kino Premium (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Dom kino Premium (576p)
+#EXTINF:-1 tvg-id="Dom.Kino.Premium.cz" tvg-name="Dom kino Premium (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="DomkinoPremium.ru@SD",Dom kino Premium (576p)
 http://88.212.15.50/live/test_dom_kino_premium/playlist.m3u8
 #EXTINF:-1 tvg-id="Dorama.ru@SD" tvg-name="Dorama (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Dorama (576p)
 https://fs.uplink.kz/dorama/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="EuropaPlusTV.ru@Belarus" tvg-name="Europa Plus TV Belarus (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Europa Plus TV Belarus (576p)
 http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
+#EXTINF:-1 tvg-id="FOX.HD.pl" tvg-name="Fox (576i)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Fox.pl@SD",Fox (576i)
+http://92.114.85.87:8015/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="GlazamiTurista.ru@SD" tvg-name="Glazami Turista (576i)" tvg-logo="" group-title="欧洲/俄罗斯",Glazami Turista (576i)
 https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="GulliGirl.ru@SD" tvg-name="Gulli Girl (720p)" tvg-logo="" group-title="欧洲/俄罗斯",Gulli Girl (720p)
+#EXTINF:-1 tvg-id="Gulli.Girl.cz" tvg-name="Gulli Girl (720p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="GulliGirl.ru@SD",Gulli Girl (720p)
 https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Home4K.ru@SD" tvg-name="Home 4K" tvg-logo="" group-title="欧洲/俄罗斯",Home 4K
+#EXTINF:-1 tvg-id="HOME.4K.pl" tvg-name="Home 4K" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Home4K.ru@SD",Home 4K
 http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="HorosheeKino.ru@SD" tvg-name="Horoshee Kino (720p)" tvg-logo="" group-title="欧洲/俄罗斯",Horoshee Kino (720p)
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
@@ -114,15 +118,15 @@ https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" tvg-name="Indiyskoye Kino (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Indiyskoye Kino (576p)
 http://188.113.190.12/329/index.m3u8
-#EXTINF:-1 tvg-id="InvestigationDiscovery.cz@SD" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯",Investigation Discovery
+#EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.cz@SD",Investigation Discovery
 http://88.212.15.50/live/test_id_hevc_atktv/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="InvestigationDiscovery.fr@SD" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯",Investigation Discovery
+#EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.fr@SD",Investigation Discovery
 http://192.99.186.30/stream/81/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="InvestigationDiscovery.hu@SD" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯",Investigation Discovery
+#EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.hu@SD",Investigation Discovery
 http://88.212.7.14/live/id_hun/index.m3u8
-#EXTINF:-1 tvg-id="KinoTV.ru@HD" tvg-name="Kino TV HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",Kino TV HD (1080p)
+#EXTINF:-1 tvg-id="Kino.TV.HD.pl" tvg-name="Kino TV HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="KinoTV.ru@HD",Kino TV HD (1080p)
 http://176.118.197.101/KinoTvHD/playlist.m3u8
 #EXTINF:-1 tvg-id="Kinomix.ru@SD" tvg-name="Kinomix (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Kinomix (576p)
 http://93.170.254.17/Kinomiks/index.m3u8
@@ -165,23 +169,23 @@ https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8
 http://31.148.5.241/kanal_20/index.m3u8
 #EXTINF:-1 tvg-id="Muzhskoy.ru@HD" tvg-name="Muzhskoy HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",Muzhskoy HD (1080p)
 https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
-#EXTINF:-1 tvg-id="MuzykaPervogo.ru@SD" tvg-name="Muzyka Pervogo (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Muzyka Pervogo (576p)
+#EXTINF:-1 tvg-id="Muzyka.Pervogo.cz" tvg-name="Muzyka Pervogo (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="MuzykaPervogo.ru@SD",Muzyka Pervogo (576p)
 http://88.212.15.50/live/test_muzyka_pervogo/playlist.m3u8
-#EXTINF:-1 tvg-id="NTV.ru@SD" tvg-name="NTV (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",NTV (1080p)
+#EXTINF:-1 tvg-id="N-TV.fr" tvg-name="NTV (1080p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="NTV.ru@SD",NTV (1080p)
 https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
 #EXTINF:-1 tvg-id="ntv.al@SD" tvg-name="ntv (720p)" tvg-logo="" group-title="欧洲/俄罗斯",ntv (720p)
 https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="ntv.de@SD" tvg-name="n-tv" tvg-logo="" group-title="欧洲/俄罗斯",n-tv
+#EXTINF:-1 tvg-id="ntv.de" tvg-name="n-tv" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="ntv.de@SD",n-tv
 https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NTV.ru@SD" tvg-name="NTV (576p)" tvg-logo="" group-title="欧洲/俄罗斯",NTV (576p)
+#EXTINF:-1 tvg-id="N-TV.fr" tvg-name="NTV (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="NTV.ru@SD",NTV (576p)
 http://31.148.5.241/kanal_4/index.m3u8
 # 备份4 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NTV.ru@SD" tvg-name="NTV (576p)" tvg-logo="" group-title="欧洲/俄罗斯",NTV (576p)
+#EXTINF:-1 tvg-id="N-TV.fr" tvg-name="NTV (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="NTV.ru@SD",NTV (576p)
 http://176.118.197.101/NTV/index.m3u8
-#EXTINF:-1 tvg-id="NTV.ru@HD" tvg-name="NTV HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",NTV HD (1080p)
+#EXTINF:-1 tvg-id="N-TV.fr" tvg-name="NTV HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="NTV.ru@HD",NTV HD (1080p)
 https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
 #EXTINF:-1 tvg-id="NTVVitrina.ru@SD" tvg-name="NTV Vitrina (720p)" tvg-logo="" group-title="欧洲/俄罗斯",NTV Vitrina (720p)
 https://cdn.ntv.ru/vitrina/index.m3u8
@@ -232,9 +236,9 @@ https://streaming.thestream.cyou/live/46.m3u8
 http://46.53.200.153:7777/play/a00u/index.m3u8
 #EXTINF:-1 tvg-id="RTGint.ru@SD" tvg-name="RTG int." tvg-logo="" group-title="欧洲/俄罗斯",RTG int.
 http://213.91.179.28:8000/play/a0bw
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@Europe" tvg-name="RTR Planeta Europe (720p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯",RTR Planeta Europe (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="RTR.Planeta.ch" tvg-name="RTR Planeta Europe (720p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="RTRPlaneta.ru@Europe",RTR Planeta Europe (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist.m3u8?entity=channel&id=510&sign=5c0ac65d75140fac2fd938d77c92138d
-#EXTINF:-1 tvg-id="RTRPlaneta.ru@US" tvg-name="RTR Planeta USA (720p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯",RTR Planeta USA (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="RTR.Planeta.ch" tvg-name="RTR Planeta USA (720p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="RTRPlaneta.ru@US",RTR Planeta USA (720p) [Geo-blocked]
 https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist.m3u8?entity=channel&id=513&sign=3ac5d8e2db71ef7fc3d4becbff7512d8
 #EXTINF:-1 tvg-id="RadioRossii.ru@HD" tvg-name="Radio Rossii (720p)" tvg-logo="" group-title="欧洲/俄罗斯",Radio Rossii (720p)
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
@@ -263,10 +267,10 @@ https://stream.smotrim.ru/hls2/russia1_plus9/playlist_5.m3u8
 http://176.118.197.101/RossiyaHD/index.m3u8
 #EXTINF:-1 tvg-id="Russia1.ru@SD" tvg-name="Russia-1 SD (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Russia-1 SD (576p)
 http://109.207.243.18/2/index.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Russia-24 (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Russia-24 (576p)
+#EXTINF:-1 tvg-id="Russia.24.cz" tvg-name="Russia-24 (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Russia24.ru@SD",Russia-24 (576p)
 http://31.148.5.241/kanal_7/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-name="Russia-24 (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Russia-24 (576p)
+#EXTINF:-1 tvg-id="Russia.24.cz" tvg-name="Russia-24 (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Russia24.ru@SD",Russia-24 (576p)
 http://176.118.197.101/Rossiya24/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru@SD" tvg-name="Russia-K (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Russia-K (576p)
 http://31.148.5.241/kanal_6/index.m3u8
@@ -291,10 +295,10 @@ http://176.118.197.101/CTC/index.m3u8
 https://stream.smotrim.ru/hls2/ext_spbtv/playlist_5.m3u8
 #EXTINF:-1 tvg-id="Saphire.ru@SD" tvg-name="Saphire (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",Saphire (1080p)
 http://46.53.200.153:7777/play/Sapfir_HD/index.m3u8
-#EXTINF:-1 tvg-id="ShansonTV.ru@SD" tvg-name="Shanson TV (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Shanson TV (576p)
+#EXTINF:-1 tvg-id="Shanson.TV.cz" tvg-name="Shanson TV (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="ShansonTV.ru@SD",Shanson TV (576p)
 http://46.53.200.153:7777/play/Shanson_TV/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="ShansonTV.ru@SD" tvg-name="Shanson TV (576p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯",Shanson TV (576p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Shanson.TV.cz" tvg-name="Shanson TV (576p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="ShansonTV.ru@SD",Shanson TV (576p) [Geo-blocked]
 https://streaming.thestream.cyou/live/7009.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Lyubov.ru@SD" tvg-name="Smotrim 100% Lyubov (720p)" tvg-logo="" group-title="欧洲/俄罗斯",Smotrim 100% Lyubov (720p)
 https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8
@@ -306,15 +310,15 @@ http://31.148.5.241/kanal_12/index.m3u8
 http://217.114.191.150/Subbota/index.m3u8
 #EXTINF:-1 tvg-id="SuperGeroi.ru@SD" tvg-name="SuperGeroi (576p)" tvg-logo="" group-title="欧洲/俄罗斯",SuperGeroi (576p)
 http://109.94.1.3:8080/132/index.m3u8
-#EXTINF:-1 tvg-id="T24.ru@SD" tvg-name="T24 (576p)" tvg-logo="" group-title="欧洲/俄罗斯",T24 (576p)
+#EXTINF:-1 tvg-id="ČT24.cz" tvg-name="T24 (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="T24.ru@SD",T24 (576p)
 http://178.134.1.158:8081/t24/index.m3u8
-#EXTINF:-1 tvg-id="TLC.de@SD" tvg-name="TLC (576p)" tvg-logo="" group-title="欧洲/俄罗斯",TLC (576p)
+#EXTINF:-1 tvg-id="TLC.de" tvg-name="TLC (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="TLC.de@SD",TLC (576p)
 https://s6.hopslan.com/tlcX/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="TLC.cz@SD" tvg-name="TLC" tvg-logo="" group-title="欧洲/俄罗斯",TLC
+#EXTINF:-1 tvg-id="TLC.cz" tvg-name="TLC" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="TLC.cz@SD",TLC
 http://88.212.15.50/live/test_tlc_1200_atk/playlist.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="TLC.hu@SD" tvg-name="TLC" tvg-logo="" group-title="欧洲/俄罗斯",TLC
+#EXTINF:-1 tvg-id="TLC.HD..gr" tvg-name="TLC" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="TLC.hu@SD",TLC
 http://88.212.7.14/live/tlc_hungary/index.m3u8
 #EXTINF:-1 tvg-id="TV21International.ru@SD" tvg-name="TV 21 International (576p)" tvg-logo="" group-title="欧洲/俄罗斯",TV 21 International (576p)
 http://46.53.200.153:7777/play/TV-21M/index.m3u8
@@ -327,29 +331,29 @@ http://31.148.5.241/kanal_10/index.m3u8
 https://fs.uplink.kz/tvc/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="TV1000RussianKinoGlobal.ru@SD" tvg-name="TV1000 Russian Kino Global" tvg-logo="" group-title="欧洲/俄罗斯",TV1000 Russian Kino Global
 http://213.91.179.28:8000/play/a0bx
-#EXTINF:-1 tvg-id="Telecafe.ru@SD" tvg-name="Telecafe (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Telecafe (576p)
+#EXTINF:-1 tvg-id="Telecafe.cz" tvg-name="Telecafe (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Telecafe.ru@SD",Telecafe (576p)
 http://88.212.15.50/live/test_telecafe_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheExplorers.ru@SD" tvg-name="The Explorers (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",The Explorers (1080p)
 https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
 #EXTINF:-1 tvg-id="Tonus.ru@SD" tvg-name="Tonus (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Tonus (576p)
 http://194.143.148.28:8080/Mir24/index.m3u8
-#EXTINF:-1 tvg-id="TravelChannel.cz@SD" tvg-name="Travel Channel" tvg-logo="" group-title="欧洲/俄罗斯",Travel Channel
+#EXTINF:-1 tvg-id="Travel.Channel.cz" tvg-name="Travel Channel" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="TravelChannel.cz@SD",Travel Channel
 http://88.212.15.50/live/test_travel_channel_hd_hevc/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="TravelChannel.hu@SD" tvg-name="Travel Channel" tvg-logo="" group-title="欧洲/俄罗斯",Travel Channel
+#EXTINF:-1 tvg-id="Travel.Channel.HD.pl" tvg-name="Travel Channel" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="TravelChannel.hu@SD",Travel Channel
 http://88.212.7.14/live/travel_hun/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="TravelChannel.pl@SD" tvg-name="Travel Channel (576i)" tvg-logo="" group-title="欧洲/俄罗斯",Travel Channel (576i)
+#EXTINF:-1 tvg-id="Travel.Channel.HD.pl" tvg-name="Travel Channel (576i)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="TravelChannel.pl@SD",Travel Channel (576i)
 http://92.114.85.87:8011/play/a00d/index.m3u8
 #EXTINF:-1 tvg-id="U.ru@SD" tvg-name="U (576p)" tvg-logo="" group-title="欧洲/俄罗斯",U (576p)
 http://178.134.1.158:8081/U/index.m3u8
 #EXTINF:-1 tvg-id="UnknownRussia.ru@HD" tvg-name="Unknown Russia HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",Unknown Russia HD (1080p)
 http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
-#EXTINF:-1 tvg-id="VIVARussia.ru@SD" tvg-name="VIVA Russia (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",VIVA Russia (1080p)
+#EXTINF:-1 tvg-id="Viva.Russia.cz" tvg-name="VIVA Russia (1080p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="VIVARussia.ru@SD",VIVA Russia (1080p)
 https://183.giatvcdn.com/ssh101/ssh101/vivarussia/playlist.m3u8
 #EXTINF:-1 tvg-id="VmesteRF.ru@SD" tvg-name="Vmeste-RF (576p) [Geo-blocked]" tvg-logo="" group-title="欧洲/俄罗斯",Vmeste-RF (576p) [Geo-blocked]
 https://streaming.thestream.cyou/live/7006.m3u8
-#EXTINF:-1 tvg-id="Vremya.ru@SD" tvg-name="Vremya (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Vremya (576p)
+#EXTINF:-1 tvg-id="Vremya.cz" tvg-name="Vremya (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Vremya.ru@SD",Vremya (576p)
 http://88.212.15.50/live/test_vremya/playlist.m3u8
 #EXTINF:-1 tvg-id="ZagorodnayaZhizn.ru@SD" tvg-name="Zagorodnaya Zhizn (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Zagorodnaya Zhizn (576p)
 http://185.57.68.33/40/index.m3u8
@@ -392,7 +396,7 @@ http://31.148.5.241/Viasat_Sport/index.m3u8
 http://46.53.200.153:7777/play/Viasat_Sport/index.m3u8
 #EXTINF:-1 tvg-id="vijuPlusSport.ru@HD" tvg-name="viju+ Sport HD (1080p)" tvg-logo="" group-title="欧洲/俄罗斯",viju+ Sport HD (1080p)
 http://46.53.200.153:7777/play/a01l/index.m3u8
-#EXTINF:-1 tvg-id="Domkino.ru@SD" tvg-name="Дом Кино (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Дом Кино (576p)
+#EXTINF:-1 tvg-id="Dom.Kino.cz" tvg-name="Дом Кино (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Domkino.ru@SD",Дом Кино (576p)
 https://streaming.thestream.cyou/live/44.m3u8
 #EXTINF:-1 tvg-id="MuzSoyuz.ru@SD" tvg-name="Муз союз (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Муз союз (576p)
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
@@ -404,7 +408,7 @@ https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
 https://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@Europe" tvg-name="Первый канал Европа (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Первый канал Европа (576p)
 https://streaming.thestream.cyou/live/210.m3u8
-#EXTINF:-1 tvg-id="Pobeda.ru@SD" tvg-name="Победа (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Победа (576p)
+#EXTINF:-1 tvg-id="Pobeda.cz" tvg-name="Победа (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Pobeda.ru@SD",Победа (576p)
 https://streaming.thestream.cyou/live/43.m3u8
 #EXTINF:-1 tvg-id="Simferopol24.ru@SD" tvg-name="Симферополь 24" tvg-logo="" group-title="欧洲/俄罗斯",Симферополь 24
 https://simf.1tvcrimea.ru/simferopol24.m3u8
@@ -448,10 +452,10 @@ http://213.91.179.28:8000/play/a05e
 http://213.91.179.28:8000/play/a03r
 #EXTINF:-1 tvg-id="HitMixMusic.bg@SD" tvg-name="Hit Mix Music" tvg-logo="" group-title="欧洲/保加利亚",Hit Mix Music
 http://213.91.179.28:8000/play/a0cl
-#EXTINF:-1 tvg-id="ID.bg@SD" tvg-name="ID" tvg-logo="" group-title="欧洲/保加利亚",ID
+#EXTINF:-1 tvg-id="ID.HD.pl" tvg-name="ID" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ID.bg@SD",ID
 http://213.91.179.28:8000/play/a0c0
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="ID.bg@SD" tvg-name="ID" tvg-logo="" group-title="欧洲/保加利亚",ID
+#EXTINF:-1 tvg-id="ID.HD.pl" tvg-name="ID" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ID.bg@SD",ID
 http://213.91.179.28:8000/play/a0cf
 #EXTINF:-1 tvg-id="KinoNova.bg@SD" tvg-name="Kino Nova" tvg-logo="" group-title="欧洲/保加利亚",Kino Nova
 http://213.91.179.28:8000/play/a041
@@ -485,19 +489,19 @@ https://streamer103.neterra.tv/thisisbulgaria/live.m3u8
 https://streamer103.neterra.tv/tiankov-folk/live.m3u8
 #EXTINF:-1 tvg-id="TiankovOrientFolk.bg@SD" tvg-name="Tiankov Orient Folk (576p)" tvg-logo="" group-title="欧洲/保加利亚",Tiankov Orient Folk (576p)
 https://streamer103.neterra.tv/tiankov-orient/live.m3u8
-#EXTINF:-1 tvg-id="ViasatExplore.cz@SD" tvg-name="Viasat Explore" tvg-logo="" group-title="欧洲/保加利亚",Viasat Explore
+#EXTINF:-1 tvg-id="Viasat.Explore.cz" tvg-name="Viasat Explore" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ViasatExplore.cz@SD",Viasat Explore
 http://88.212.15.50/live/test_viasat_explore_atk_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ViasatHistory.cz@SD" tvg-name="Viasat History" tvg-logo="" group-title="欧洲/保加利亚",Viasat History
+#EXTINF:-1 tvg-id="Viasat.History.cz" tvg-name="Viasat History" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ViasatHistory.cz@SD",Viasat History
 http://88.212.15.50/live/test_viasat_history_atk_tv/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="ViasatHistory.hu@SD" tvg-name="Viasat History" tvg-logo="" group-title="欧洲/保加利亚",Viasat History
+#EXTINF:-1 tvg-id="Viasat.History.HD.gr" tvg-name="Viasat History" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ViasatHistory.hu@SD",Viasat History
 http://193.33.39.108:9007/play/a00p
-#EXTINF:-1 tvg-id="ViasatKino.ua@Bulgaria" tvg-name="Viasat Kino Bulgaria" tvg-logo="" group-title="欧洲/保加利亚",Viasat Kino Bulgaria
+#EXTINF:-1 tvg-id="Viasat.Kino.cz" tvg-name="Viasat Kino Bulgaria" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ViasatKino.ua@Bulgaria",Viasat Kino Bulgaria
 http://85.14.32.26:8800/udp/239.100.10.100:5000
-#EXTINF:-1 tvg-id="ViasatNature.cz@SD" tvg-name="Viasat Nature" tvg-logo="" group-title="欧洲/保加利亚",Viasat Nature
+#EXTINF:-1 tvg-id="Viasat.Nature.cz" tvg-name="Viasat Nature" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ViasatNature.cz@SD",Viasat Nature
 http://88.212.15.50/live/test_viasat_nature_atk_tv/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="ViasatNature.hu@SD" tvg-name="Viasat Nature" tvg-logo="" group-title="欧洲/保加利亚",Viasat Nature
+#EXTINF:-1 tvg-id="Viasat.Nature.HD.gr" tvg-name="Viasat Nature" tvg-logo="" group-title="欧洲/保加利亚" tvg-id-orig="ViasatNature.hu@SD",Viasat Nature
 http://193.33.39.108:9000/play/a05r
 #EXTINF:-1 tvg-id="VivacomArena.bg@SD" tvg-name="Vivacom Arena" tvg-logo="" group-title="欧洲/保加利亚",Vivacom Arena
 http://213.91.179.28:8000/play/a053
@@ -516,22 +520,22 @@ http://213.91.179.28:8000/play/a04k
 http://213.91.179.28:8000/play/a05i
 
 # ==================== 欧洲/克罗地亚 ====================
-#EXTINF:-1 tvg-id="NationalGeographic.bg@SD" tvg-name="National Geographic" tvg-logo="" group-title="欧洲/克罗地亚",National Geographic
+#EXTINF:-1 tvg-id="National.Geographic.HD.cz" tvg-name="National Geographic" tvg-logo="" group-title="欧洲/克罗地亚" tvg-id-orig="NationalGeographic.bg@SD",National Geographic
 http://213.91.179.28:8000/play/a0ct
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NationalGeographic.cz@SD" tvg-name="National Geographic" tvg-logo="" group-title="欧洲/克罗地亚",National Geographic
+#EXTINF:-1 tvg-id="National.Geographic.HD.cz" tvg-name="National Geographic" tvg-logo="" group-title="欧洲/克罗地亚" tvg-id-orig="NationalGeographic.cz@SD",National Geographic
 http://88.212.15.50/live/test_ngc/playlist.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NationalGeographic.hu@SD" tvg-name="National Geographic" tvg-logo="" group-title="欧洲/克罗地亚",National Geographic
+#EXTINF:-1 tvg-id="National.Geographic.(hu).cz" tvg-name="National Geographic" tvg-logo="" group-title="欧洲/克罗地亚" tvg-id-orig="NationalGeographic.hu@SD",National Geographic
 http://88.212.7.14/live/ngc_hun/index.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NationalGeographic.pl@SD" tvg-name="National Geographic (576i)" tvg-logo="" group-title="欧洲/克罗地亚",National Geographic (576i)
+#EXTINF:-1 tvg-id="National.Geographic.(pl).cz" tvg-name="National Geographic (576i)" tvg-logo="" group-title="欧洲/克罗地亚" tvg-id-orig="NationalGeographic.pl@SD",National Geographic (576i)
 http://92.114.85.87:8006/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="OTV.ee@SD" tvg-name="OTV" tvg-logo="" group-title="欧洲/克罗地亚",OTV
+#EXTINF:-1 tvg-id="OTV.cz" tvg-name="OTV" tvg-logo="" group-title="欧洲/克罗地亚" tvg-id-orig="OTV.ee@SD",OTV
 http://88.212.7.14/live/otv/playlist.m3u8
 
 # ==================== 欧洲/匈牙利 ====================
-#EXTINF:-1 tvg-id="ATVSpirit.hu@SD" tvg-name="ATV Spirit" tvg-logo="" group-title="欧洲/匈牙利",ATV Spirit
+#EXTINF:-1 tvg-id="ATV.Spirit.cz" tvg-name="ATV Spirit" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="ATVSpirit.hu@SD",ATV Spirit
 http://88.212.7.14/live/test_atv_spirit/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNCrime.us@SD" tvg-name="AXN Crime" tvg-logo="" group-title="欧洲/匈牙利",AXN Crime
 http://88.212.7.14/live/viasat_film/index.m3u8
@@ -545,27 +549,27 @@ http://193.33.39.108:9023/play/a01b
 http://46.249.95.140:8081/hls/data.m3u8
 #EXTINF:-1 tvg-id="DikhTV.hu@SD" tvg-name="Dikh TV" tvg-logo="" group-title="欧洲/匈牙利",Dikh TV
 http://88.212.7.14/live/dikh/index.m3u8
-#EXTINF:-1 tvg-id="Duna.hu@SD" tvg-name="Duna" tvg-logo="" group-title="欧洲/匈牙利",Duna
+#EXTINF:-1 tvg-id="Duna.cz" tvg-name="Duna" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Duna.hu@SD",Duna
 http://88.212.7.14/live/duna_hun/index.m3u8
-#EXTINF:-1 tvg-id="DunaWorld.hu@SD" tvg-name="Duna World" tvg-logo="" group-title="欧洲/匈牙利",Duna World
+#EXTINF:-1 tvg-id="Duna.World.ch" tvg-name="Duna World" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="DunaWorld.hu@SD",Duna World
 http://88.212.7.14/live/duna_world_hun/index.m3u8
-#EXTINF:-1 tvg-id="FEM3.hu@SD" tvg-name="FEM3" tvg-logo="" group-title="欧洲/匈牙利",FEM3
+#EXTINF:-1 tvg-id="FEM3.cz" tvg-name="FEM3" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="FEM3.hu@SD",FEM3
 http://88.212.7.14/live/test_fem3_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmCafe.hu@Hungary" tvg-name="Film Cafe" tvg-logo="" group-title="欧洲/匈牙利",Film Cafe
 http://88.212.7.14/live/film_cafe/index.m3u8
-#EXTINF:-1 tvg-id="Film4.hu@SD" tvg-name="Film4" tvg-logo="" group-title="欧洲/匈牙利",Film4
+#EXTINF:-1 tvg-id="Film4.HD.uk" tvg-name="Film4" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Film4.hu@SD",Film4
 http://88.212.7.14/live/film4_hun/index.m3u8
 #EXTINF:-1 tvg-id="IzauraTV.hu@SD" tvg-name="Izaura TV (1080p)" tvg-logo="" group-title="欧洲/匈牙利",Izaura TV (1080p)
 http://88.212.7.14/live/izaura/index.m3u8
-#EXTINF:-1 tvg-id="JimJam.hu@SD" tvg-name="JimJam" tvg-logo="" group-title="欧洲/匈牙利",JimJam
+#EXTINF:-1 tvg-id="Jim.Jam.cz" tvg-name="JimJam" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="JimJam.hu@SD",JimJam
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
-#EXTINF:-1 tvg-id="JockyTV.hu@SD" tvg-name="Jocky TV" tvg-logo="" group-title="欧洲/匈牙利",Jocky TV
+#EXTINF:-1 tvg-id="Jocky.TV.cz" tvg-name="Jocky TV" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="JockyTV.hu@SD",Jocky TV
 http://88.212.7.14/live/jocky/index.m3u8
-#EXTINF:-1 tvg-id="Kolyokklub.hu@SD" tvg-name="Kolyokklub" tvg-logo="" group-title="欧洲/匈牙利",Kolyokklub
+#EXTINF:-1 tvg-id="Kolyokklub.cz" tvg-name="Kolyokklub" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Kolyokklub.hu@SD",Kolyokklub
 http://88.212.7.14/live/kolyokklub_atk/index.m3u8
 #EXTINF:-1 tvg-id="LiceumTV.hu@SD" tvg-name="Liceum TV (576p)" tvg-logo="" group-title="欧洲/匈牙利",Liceum TV (576p)
 http://193.225.32.62:8890/live.m3u8
-#EXTINF:-1 tvg-id="M1.hu@HD" tvg-name="M1 HD" tvg-logo="" group-title="欧洲/匈牙利",M1 HD
+#EXTINF:-1 tvg-id="M1.ch" tvg-name="M1 HD" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="M1.hu@HD",M1 HD
 http://88.212.7.14/live/test_m_1_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="M2.hu@SD" tvg-name="M2 (1080p)" tvg-logo="" group-title="欧洲/匈牙利",M2 (1080p)
 http://88.212.7.14/live/m2_hun/index.m3u8
@@ -579,41 +583,41 @@ http://141.94.193.53/MAX4_HD/index.m3u8
 http://88.212.7.14/live/mozi/index.m3u8
 #EXTINF:-1 tvg-id="Match4.hu@SD" tvg-name="Match4 (1080p)" tvg-logo="" group-title="欧洲/匈牙利",Match4 (1080p)
 http://141.94.193.53/Match4_HD/index.m3u8
-#EXTINF:-1 tvg-id="MoziPlus.hu@SD" tvg-name="Mozi+" tvg-logo="" group-title="欧洲/匈牙利",Mozi+
+#EXTINF:-1 tvg-id="Mozi+.cz" tvg-name="Mozi+" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="MoziPlus.hu@SD",Mozi+
 http://88.212.7.14/live/mozi_plusz/index.m3u8
-#EXTINF:-1 tvg-id="Moziklub.hu@SD" tvg-name="Moziklub" tvg-logo="" group-title="欧洲/匈牙利",Moziklub
+#EXTINF:-1 tvg-id="Moziklub.cz" tvg-name="Moziklub" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Moziklub.hu@SD",Moziklub
 http://88.212.7.14/live/moziklub_atk/index.m3u8
-#EXTINF:-1 tvg-id="Moziverzum.hu@SD" tvg-name="Moziverzum" tvg-logo="" group-title="欧洲/匈牙利",Moziverzum
+#EXTINF:-1 tvg-id="Moziverzum.cz" tvg-name="Moziverzum" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Moziverzum.hu@SD",Moziverzum
 http://88.212.7.14/live/moziverzum/index.m3u8
-#EXTINF:-1 tvg-id="MuzsikaTV.hu@SD" tvg-name="Muzsika TV" tvg-logo="" group-title="欧洲/匈牙利",Muzsika TV
+#EXTINF:-1 tvg-id="Muzsika.TV.cz" tvg-name="Muzsika TV" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="MuzsikaTV.hu@SD",Muzsika TV
 http://88.212.7.14/live/test_muzsika_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="OzoneTV.hu@SD" tvg-name="Ozone TV" tvg-logo="" group-title="欧洲/匈牙利",Ozone TV
 http://88.212.7.14/live/ozone/index.m3u8
-#EXTINF:-1 tvg-id="Prime.hu@SD" tvg-name="Prime" tvg-logo="" group-title="欧洲/匈牙利",Prime
+#EXTINF:-1 tvg-id="Prime.HD.de" tvg-name="Prime" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Prime.hu@SD",Prime
 http://88.212.7.14/live/prime/index.m3u8
 #EXTINF:-1 tvg-id="RTLHarom.hu@SD" tvg-name="RTL Harom" tvg-logo="" group-title="欧洲/匈牙利",RTL Harom
 http://88.212.7.14/live/test_rtl_plus_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="RTLKetto.hu@SD" tvg-name="RTL Ketto" tvg-logo="" group-title="欧洲/匈牙利",RTL Ketto
 http://88.212.7.14/live/test_rtl2_hungary_1200_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLOtthon.hu@SD" tvg-name="RTL Otthon" tvg-logo="" group-title="欧洲/匈牙利",RTL Otthon
+#EXTINF:-1 tvg-id="RTL.Otthon.cz" tvg-name="RTL Otthon" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="RTLOtthon.hu@SD",RTL Otthon
 http://88.212.7.14/live/rtl_otthon_atk/index.m3u8
 #EXTINF:-1 tvg-id="SlagerTV.hu@SD" tvg-name="Slager TV" tvg-logo="" group-title="欧洲/匈牙利",Slager TV
 http://88.212.7.14/live/test_slager_tv_hungary_1200_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="SorozatPlus.hu@SD" tvg-name="Sorozat+" tvg-logo="" group-title="欧洲/匈牙利",Sorozat+
+#EXTINF:-1 tvg-id="Sorozat+.cz" tvg-name="Sorozat+" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="SorozatPlus.hu@SD",Sorozat+
 http://88.212.7.14/live/test_sorozat_hungary_1200_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="Sorozatklub.hu@SD" tvg-name="Sorozatklub" tvg-logo="" group-title="欧洲/匈牙利",Sorozatklub
+#EXTINF:-1 tvg-id="Sorozatklub.cz" tvg-name="Sorozatklub" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Sorozatklub.hu@SD",Sorozatklub
 http://88.212.7.14/live/sorozatklub_atk/index.m3u8
 #EXTINF:-1 tvg-id="Spiler1.hu@SD" tvg-name="Spiler 1" tvg-logo="" group-title="欧洲/匈牙利",Spiler 1
 http://88.212.7.14/live/spiler1/index.m3u8
 #EXTINF:-1 tvg-id="Spiler2.hu@SD" tvg-name="Spiler 2" tvg-logo="" group-title="欧洲/匈牙利",Spiler 2
 http://88.212.7.14/live/spiler2/index.m3u8
-#EXTINF:-1 tvg-id="Story4.hu@SD" tvg-name="Story4" tvg-logo="" group-title="欧洲/匈牙利",Story4
+#EXTINF:-1 tvg-id="Story4.cz" tvg-name="Story4" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Story4.hu@SD",Story4
 http://88.212.7.14/live/test_story_4_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="Story4.hu@Czechia" tvg-name="Story4 Czechia" tvg-logo="" group-title="欧洲/匈牙利",Story4 Czechia
 http://88.212.7.14/live/story_4_cze_atk/index.m3u8
-#EXTINF:-1 tvg-id="SuperTV2.hu@SD" tvg-name="Super TV2" tvg-logo="" group-title="欧洲/匈牙利",Super TV2
+#EXTINF:-1 tvg-id="SuperTV2.cz" tvg-name="Super TV2" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="SuperTV2.hu@SD",Super TV2
 http://88.212.7.14/live/test_super_tv2_hungary_1200_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="TV2.hu@SD" tvg-name="TV2" tvg-logo="" group-title="欧洲/匈牙利",TV2
+#EXTINF:-1 tvg-id="TV.2.dk" tvg-name="TV2" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="TV2.hu@SD",TV2
 http://88.212.7.14/live/test_tv_2_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="TV2Comedy.hu@SD" tvg-name="TV2 Comedy" tvg-logo="" group-title="欧洲/匈牙利",TV2 Comedy
 http://88.212.7.14/live/tv2_comedy/index.m3u8
@@ -625,13 +629,13 @@ http://88.212.7.14/live/test_lichi_tv_atk_tv/playlist.m3u8
 http://88.212.7.14/live/test_fishing_hunting/playlist.m3u8
 #EXTINF:-1 tvg-id="TheFishingHuntingChannel.hu@HD" tvg-name="The Fishing & Hunting Channel HD" tvg-logo="" group-title="欧洲/匈牙利",The Fishing & Hunting Channel HD
 http://88.212.7.14/live/fishing_hun/index.m3u8
-#EXTINF:-1 tvg-id="Viasat3.hu@SD" tvg-name="Viasat 3" tvg-logo="" group-title="欧洲/匈牙利",Viasat 3
+#EXTINF:-1 tvg-id="Viasat3.cz" tvg-name="Viasat 3" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Viasat3.hu@SD",Viasat 3
 http://88.212.7.14/live/viasat3/index.m3u8
-#EXTINF:-1 tvg-id="Viasat6.hu@SD" tvg-name="Viasat 6" tvg-logo="" group-title="欧洲/匈牙利",Viasat 6
+#EXTINF:-1 tvg-id="Viasat6.cz" tvg-name="Viasat 6" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Viasat6.hu@SD",Viasat 6
 http://88.212.7.14/live/viasat6/index.m3u8
 #EXTINF:-1 tvg-id="Viasat2.hu@SD" tvg-name="Viasat2" tvg-logo="" group-title="欧洲/匈牙利",Viasat2
 http://88.212.7.14/live/viasat2/index.m3u8
-#EXTINF:-1 tvg-id="Zenebutik.hu@SD" tvg-name="Zenebutik" tvg-logo="" group-title="欧洲/匈牙利",Zenebutik
+#EXTINF:-1 tvg-id="Zenebutik.cz" tvg-name="Zenebutik" tvg-logo="" group-title="欧洲/匈牙利" tvg-id-orig="Zenebutik.hu@SD",Zenebutik
 http://88.212.7.14/live/zenebutik/index.m3u8
 
 # ==================== 欧洲/北马其顿 ====================
@@ -667,24 +671,24 @@ https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u
 https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="FS1Salzburg.at@SD" tvg-name="FS1 Salzburg (720p) [Not 24/7]" tvg-logo="" group-title="欧洲/奥地利",FS1 Salzburg (720p) [Not 24/7]
 https://stream.fs1.tv/hls/webstream.m3u8
-#EXTINF:-1 tvg-id="KTV.at@SD" tvg-name="K-TV (720p)" tvg-logo="" group-title="欧洲/奥地利",K-TV (720p)
+#EXTINF:-1 tvg-id="K-TV.at" tvg-name="K-TV (720p)" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="KTV.at@SD",K-TV (720p)
 https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8
 #EXTINF:-1 tvg-id="KITTV.at@SD" tvg-name="KIT-TV (720p)" tvg-logo="" group-title="欧洲/奥地利",KIT-TV (720p)
 https://everest.pa-hosting.de:3591/live/joseflive.m3u8
 #EXTINF:-1 tvg-id="LandleTV.at@SD" tvg-name="Ländle TV (1080p) [Not 24/7]" tvg-logo="" group-title="欧洲/奥地利",Ländle TV (1080p) [Not 24/7]
 https://streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8
-#EXTINF:-1 tvg-id="ORF1.at@SD" tvg-name="ORF 1" tvg-logo="" group-title="欧洲/奥地利",ORF 1
+#EXTINF:-1 tvg-id="ORF.1.at" tvg-name="ORF 1" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="ORF1.at@SD",ORF 1
 https://test02.mdn.ors.at/orf/orf1/qxa/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF2.at@SD" tvg-name="ORF 2 (720p)" tvg-logo="" group-title="欧洲/奥地利",ORF 2 (720p)
+#EXTINF:-1 tvg-id="ORF.2.at" tvg-name="ORF 2 (720p)" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="ORF2.at@SD",ORF 2 (720p)
 http://88.212.7.14/live/test_orf_zwei_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="ORFSportPlus.at@SD" tvg-name="ORF Sport+" tvg-logo="" group-title="欧洲/奥地利",ORF Sport+
+#EXTINF:-1 tvg-id="ORF.SPORT.+.de" tvg-name="ORF Sport+" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="ORFSportPlus.at@SD",ORF Sport+
 https://test02.mdn.ors.at/orf/orfs/qxa/manifest.m3u8
-#EXTINF:-1 tvg-id="RedBullTV.at@SD" tvg-name="Red Bull TV (1080p)" tvg-logo="" group-title="欧洲/奥地利",Red Bull TV (1080p)
+#EXTINF:-1 tvg-id="Red.Bull.TV.cz" tvg-name="Red Bull TV (1080p)" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="RedBullTV.at@SD",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 # 备份1 | 时延 9999ms | 画质 1080p/FHD | 来源 iptv-org
-#EXTINF:-1 tvg-id="RedBullTV.at@UK" tvg-name="Red Bull TV (1080p)" tvg-logo="" group-title="欧洲/奥地利",Red Bull TV (1080p)
+#EXTINF:-1 tvg-id="Red.Bull.TV.cz" tvg-name="Red Bull TV (1080p)" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="RedBullTV.at@UK",Red Bull TV (1080p)
 https://d1hlbgn3fph0cz.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="ServusTV.at@SD" tvg-name="ServusTV (576p)" tvg-logo="" group-title="欧洲/奥地利",ServusTV (576p)
+#EXTINF:-1 tvg-id="SERVUS.TV.at" tvg-name="ServusTV (576p)" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="ServusTV.at@SD",ServusTV (576p)
 https://s6.hopslan.com/servuz1/index.m3u8
 #EXTINF:-1 tvg-id="SwamijiTVAmerican.at@SD" tvg-name="Swamiji TV American (1080p) [Not 24/7]" tvg-logo="" group-title="欧洲/奥地利",Swamiji TV American (1080p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamUS.smil/playlist.m3u8
@@ -694,14 +698,14 @@ https://stream.swamiji.tv/YogaIPTV/smil:YogaStreamAU.smil/playlist.m3u8
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1Oberosterreich.at@SD" tvg-name="TV 1 Oberösterreich (1080p)" tvg-logo="" group-title="欧洲/奥地利",TV 1 Oberösterreich (1080p)
 https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8
-#EXTINF:-1 tvg-id="TirolTV.at@SD" tvg-name="Tirol TV (720p) [Not 24/7]" tvg-logo="" group-title="欧洲/奥地利",Tirol TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TIROL.TV.at" tvg-name="Tirol TV (720p) [Not 24/7]" tvg-logo="" group-title="欧洲/奥地利" tvg-id-orig="TirolTV.at@SD",Tirol TV (720p) [Not 24/7]
 https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 
 # ==================== 欧洲/希腊 ====================
-#EXTINF:-1 tvg-id="2x2.ru@SD" tvg-name="2x2 (576p)" tvg-logo="" group-title="欧洲/希腊",2x2 (576p)
+#EXTINF:-1 tvg-id="2x2.HD.pl" tvg-name="2x2 (576p)" tvg-logo="" group-title="欧洲/希腊" tvg-id-orig="2x2.ru@SD",2x2 (576p)
 http://176.118.197.101/2x2/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="2x2.ru@SD" tvg-name="2x2 (576p)" tvg-logo="" group-title="欧洲/希腊",2x2 (576p)
+#EXTINF:-1 tvg-id="2x2.HD.pl" tvg-name="2x2 (576p)" tvg-logo="" group-title="欧洲/希腊" tvg-id-orig="2x2.ru@SD",2x2 (576p)
 http://185.23.80.23:8080/2x2/index.m3u8
 #EXTINF:-1 tvg-id="ART.ru@SD" tvg-name="ART (576p)" tvg-logo="" group-title="欧洲/希腊",ART (576p)
 http://89.104.114.24:8080/art/index.m3u8
@@ -722,91 +726,91 @@ http://31.148.5.241/kanal_16/index.m3u8
 https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MessatidaTV.gr@SD" tvg-name="Messatida TV (720p)" tvg-logo="" group-title="欧洲/希腊",Messatida TV (720p)
 https://rtmp.streams.ovh:8081/mtv/index.m3u8
-#EXTINF:-1 tvg-id="Poehali.ru@SD" tvg-name="Poehali! (576p)" tvg-logo="" group-title="欧洲/希腊",Poehali! (576p)
+#EXTINF:-1 tvg-id="Poehali.cz" tvg-name="Poehali! (576p)" tvg-logo="" group-title="欧洲/希腊" tvg-id-orig="Poehali.ru@SD",Poehali! (576p)
 http://88.212.15.50/live/test_poehali/playlist.m3u8
 #EXTINF:-1 tvg-id="TNT.ru@SD" tvg-name="TNT (576p)" tvg-logo="" group-title="欧洲/希腊",TNT (576p)
 http://31.148.5.241/kanal_19/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="TNT.ru@SD" tvg-name="TNT (576p)" tvg-logo="" group-title="欧洲/希腊",TNT (576p)
 http://176.118.197.101/THT/index.m3u8
-#EXTINF:-1 tvg-id="TV100.gr@SD" tvg-name="TV 100 (720p)" tvg-logo="" group-title="欧洲/希腊",TV 100 (720p)
+#EXTINF:-1 tvg-id="TV100.ΘΕΣΣΑΛΟΝΙΚΗ.gr" tvg-name="TV 100 (720p)" tvg-logo="" group-title="欧洲/希腊" tvg-id-orig="TV100.gr@SD",TV 100 (720p)
 https://gwebstream.net/hls/master.m3u8
 
 # ==================== 欧洲/德国 ====================
-#EXTINF:-1 tvg-id="3sat.de@SD" tvg-name="3sat" tvg-logo="" group-title="欧洲/德国",3sat
+#EXTINF:-1 tvg-id="3sat.de" tvg-name="3sat" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="3sat.de@SD",3sat
 https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="AXNBlack.de@SD" tvg-name="AXN Black" tvg-logo="" group-title="欧洲/德国",AXN Black
+#EXTINF:-1 tvg-id="AXN.Black.de" tvg-name="AXN Black" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="AXNBlack.de@SD",AXN Black
 http://46.244.99.71:8181/stream/35/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="AXNBlack.pl@SD" tvg-name="AXN Black (576i)" tvg-logo="" group-title="欧洲/德国",AXN Black (576i)
+#EXTINF:-1 tvg-id="AXN.Black.pl" tvg-name="AXN Black (576i)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="AXNBlack.pl@SD",AXN Black (576i)
 http://92.114.85.87:8014/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="AXNWhite.pl@SD" tvg-name="AXN White (576i)" tvg-logo="" group-title="欧洲/德国",AXN White (576i)
+#EXTINF:-1 tvg-id="AXN.White.pl" tvg-name="AXN White (576i)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="AXNWhite.pl@SD",AXN White (576i)
 http://92.114.85.87:8014/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="CiraTV.de@SD" tvg-name="Cira TV (1080p)" tvg-logo="" group-title="欧洲/德国",Cira TV (1080p)
 https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
-#EXTINF:-1 tvg-id="DMAX.de@HD" tvg-name="DMAX HD (576p)" tvg-logo="" group-title="欧洲/德国",DMAX HD (576p)
+#EXTINF:-1 tvg-id="DMAX.de" tvg-name="DMAX HD (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="DMAX.de@HD",DMAX HD (576p)
 https://s6.hopslan.com/dmaxX/index.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DMAX.it@HD" tvg-name="DMAX HD (720p)" tvg-logo="" group-title="欧洲/德国",DMAX HD (720p)
+#EXTINF:-1 tvg-id="DMAX.it" tvg-name="DMAX HD (720p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="DMAX.it@HD",DMAX HD (720p)
 http://102.129.186.182:81/dmax/index.m3u8
-#EXTINF:-1 tvg-id="DW.de@English" tvg-name="DW English (720p)" tvg-logo="" group-title="欧洲/德国",DW English (720p)
+#EXTINF:-1 tvg-id="DW.-.DE.pl" tvg-name="DW English (720p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="DW.de@English",DW English (720p)
 http://170.83.16.50/DW/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DW.de@English" tvg-name="DW English (576p)" tvg-logo="" group-title="欧洲/德国",DW English (576p)
+#EXTINF:-1 tvg-id="DW.-.DE.pl" tvg-name="DW English (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="DW.de@English",DW English (576p)
 https://tvsen6.aynaott.com/Qq3s5WR2/index.m3u8
-#EXTINF:-1 tvg-id="DW.de@Espanol" tvg-name="DW Espanol (720p)" tvg-logo="" group-title="欧洲/德国",DW Espanol (720p)
+#EXTINF:-1 tvg-id="DW.-.DE.pl" tvg-name="DW Espanol (720p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="DW.de@Espanol",DW Espanol (720p)
 http://138.121.15.230:9002/DW/index.m3u8
 #EXTINF:-1 tvg-id="Lausitzwelle.de@SD" tvg-name="Lausitzwelle (1080p)" tvg-logo="" group-title="欧洲/德国",Lausitzwelle (1080p)
 https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="NickComedyCentralPlus1.de@SD" tvg-name="Nick/Comedy Central +1" tvg-logo="" group-title="欧洲/德国",Nick/Comedy Central +1
 http://90.183.52.46:4000/play/a046/index.m3u8
-#EXTINF:-1 tvg-id="Nitro.de@SD" tvg-name="Nitro" tvg-logo="" group-title="欧洲/德国",Nitro
+#EXTINF:-1 tvg-id="NITRO.de" tvg-name="Nitro" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="Nitro.de@SD",Nitro
 https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="ProSiebenMaxx.de@SD" tvg-name="ProSieben Maxx (576p)" tvg-logo="" group-title="欧洲/德国",ProSieben Maxx (576p)
+#EXTINF:-1 tvg-id="ProSieben.MAXX.de" tvg-name="ProSieben Maxx (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="ProSiebenMaxx.de@SD",ProSieben Maxx (576p)
 https://s6.hopslan.com/pro7maxxX/index.m3u8
 #EXTINF:-1 tvg-id="RFH.de@SD" tvg-name="RFH (1080p)" tvg-logo="" group-title="欧洲/德国",RFH (1080p)
 https://h056.video-stream-hosting.de/medienasa-live/_definst_/mp4:RFH_high/index.m3u8
-#EXTINF:-1 tvg-id="RTL.de@SD" tvg-name="RTL" tvg-logo="" group-title="欧洲/德国",RTL
+#EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="RTL.de@SD",RTL
 https://dash4.antik.sk/live/test_rtl_ger_tizen/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="RTL.hu@SD" tvg-name="RTL" tvg-logo="" group-title="欧洲/德国",RTL
+#EXTINF:-1 tvg-id="RTL.HD.pl" tvg-name="RTL" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="RTL.hu@SD",RTL
 http://88.212.7.14/live/test_rtl_klub_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="RTLSuper.de@SD" tvg-name="RTL Super" tvg-logo="" group-title="欧洲/德国",RTL Super
 https://dash4.antik.sk/live/test_super_rtl_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="RTLSuper.de@HD" tvg-name="RTL Super HD (576p)" tvg-logo="" group-title="欧洲/德国",RTL Super HD (576p)
 https://s6.hopslan.com/superX/index.m3u8
-#EXTINF:-1 tvg-id="RTLZwei.de@SD" tvg-name="RTL Zwei" tvg-logo="" group-title="欧洲/德国",RTL Zwei
+#EXTINF:-1 tvg-id="RTLZWEI.de" tvg-name="RTL Zwei" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="RTLZwei.de@SD",RTL Zwei
 https://dash4.antik.sk/live/test_rtl_zwei_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLZwei.de@HD" tvg-name="RTL Zwei HD (576p)" tvg-logo="" group-title="欧洲/德国",RTL Zwei HD (576p)
+#EXTINF:-1 tvg-id="RTLZWEI.de" tvg-name="RTL Zwei HD (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="RTLZwei.de@HD",RTL Zwei HD (576p)
 https://s6.hopslan.com/rtl2q/index.m3u8
-#EXTINF:-1 tvg-id="RTLup.de@SD" tvg-name="RTLup (576p)" tvg-logo="" group-title="欧洲/德国",RTLup (576p)
+#EXTINF:-1 tvg-id="RTLup.de" tvg-name="RTLup (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="RTLup.de@SD",RTLup (576p)
 https://s6.hopslan.com/rtltupz/index.m3u8
-#EXTINF:-1 tvg-id="RiC.de@SD" tvg-name="RiC (1080p)" tvg-logo="" group-title="欧洲/德国",RiC (1080p)
+#EXTINF:-1 tvg-id="RiC.de" tvg-name="RiC (1080p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="RiC.de@SD",RiC (1080p)
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
 #EXTINF:-1 tvg-id="RiCtoday.de@HD" tvg-name="RiC.today" tvg-logo="" group-title="欧洲/德国",RiC.today
 http://88.212.7.14/live/test_ric_international_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="SWRFernsehenHD.de@SD" tvg-name="SWR Fernsehen HD" tvg-logo="" group-title="欧洲/德国",SWR Fernsehen HD
+#EXTINF:-1 tvg-id="SWR-Fernsehen.fr" tvg-name="SWR Fernsehen HD" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="SWRFernsehenHD.de@SD",SWR Fernsehen HD
 https://dash4.antik.sk/live/test_swr_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Seenluft24.de@SD" tvg-name="Seenluft24 (1080p)" tvg-logo="" group-title="欧洲/德国",Seenluft24 (1080p)
 https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref=
-#EXTINF:-1 tvg-id="TELE5.de@SD" tvg-name="TELE 5 (576p)" tvg-logo="" group-title="欧洲/德国",TELE 5 (576p)
+#EXTINF:-1 tvg-id="Tele.5.de" tvg-name="TELE 5 (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="TELE5.de@SD",TELE 5 (576p)
 https://s6.hopslan.com/tele5X/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Tele5.pl@SD" tvg-name="Tele5 (576i)" tvg-logo="" group-title="欧洲/德国",Tele5 (576i)
+#EXTINF:-1 tvg-id="Tele.5.HD.pl" tvg-name="Tele5 (576i)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="Tele5.pl@SD",Tele5 (576i)
 http://92.114.85.87:8012/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="TVRUS.de@SD" tvg-name="TVRUS" tvg-logo="" group-title="欧洲/德国",TVRUS
 http://213.91.179.28:8000/play/a082
-#EXTINF:-1 tvg-id="VOX.de@SD" tvg-name="VOX" tvg-logo="" group-title="欧洲/德国",VOX
+#EXTINF:-1 tvg-id="VOX.de" tvg-name="VOX" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="VOX.de@SD",VOX
 https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Voxup.de@SD" tvg-name="Voxup (576p)" tvg-logo="" group-title="欧洲/德国",Voxup (576p)
+#EXTINF:-1 tvg-id="VOXup.de" tvg-name="Voxup (576p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="Voxup.de@SD",Voxup (576p)
 https://s6.hopslan.com/voxupz/index.m3u8
-#EXTINF:-1 tvg-id="WELT.de@SD" tvg-name="WELT" tvg-logo="" group-title="欧洲/德国",WELT
+#EXTINF:-1 tvg-id="WELT.de" tvg-name="WELT" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="WELT.de@SD",WELT
 https://dash4.antik.sk/live/test_welt_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="Wicked Tuna Germany (1080p)" tvg-name="Wicked Tuna Germany (1080p)" tvg-logo="" group-title="欧洲/德国",Wicked Tuna Germany (1080p)
 https://amg00353-amg00353c28-rakuten-us-4895.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZDF.de@SD" tvg-name="ZDF" tvg-logo="" group-title="欧洲/德国",ZDF
+#EXTINF:-1 tvg-id="ZDF.de" tvg-name="ZDF" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="ZDF.de@SD",ZDF
 https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="kabeleinsDoku.de@SD" tvg-name="kabel eins Doku (720p)" tvg-logo="" group-title="欧洲/德国",kabel eins Doku (720p)
+#EXTINF:-1 tvg-id="kabel.eins.Doku.de" tvg-name="kabel eins Doku (720p)" tvg-logo="" group-title="欧洲/德国" tvg-id-orig="kabeleinsDoku.de@SD",kabel eins Doku (720p)
 https://s6.hopslan.com/dokuX/index.m3u8
 #EXTINF:-1 tvg-id="teltOwkanal.de@SD" tvg-name="teltOwkanal (1080p)" tvg-logo="" group-title="欧洲/德国",teltOwkanal (1080p)
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
@@ -816,59 +820,59 @@ https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/
 https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
 #EXTINF:-1 tvg-id="BoingPlus.it@SD" tvg-name="Boing Plus" tvg-logo="" group-title="欧洲/意大利",Boing Plus
 http://95.141.36.9:8080/stream/181/index.m3u8
-#EXTINF:-1 tvg-id="CacciaePesca.it@SD" tvg-name="Caccia e Pesca (720p)" tvg-logo="" group-title="欧洲/意大利",Caccia e Pesca (720p)
+#EXTINF:-1 tvg-id="CACCIA.e.Pesca.it" tvg-name="Caccia e Pesca (720p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="CacciaePesca.it@SD",Caccia e Pesca (720p)
 http://102.129.186.182:81/cacciapesca/index.m3u8
-#EXTINF:-1 tvg-id="DMAX.es@SD" tvg-name="DMAX" tvg-logo="" group-title="欧洲/意大利",DMAX
+#EXTINF:-1 tvg-id="DMAX.es" tvg-name="DMAX" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="DMAX.es@SD",DMAX
 http://90.163.85.113:8093/stream/51/index.m3u8
 #EXTINF:-1 tvg-id="DellaTV.it@HD" tvg-name="DellaTV (720p)" tvg-logo="" group-title="欧洲/意大利",DellaTV (720p)
 https://183.giatvcdn.com/giatvplayout7/giatv-211474/playlist.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannel.cz@SD" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利",Discovery Channel
+#EXTINF:-1 tvg-id="Discovery.Channel.cz" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="DiscoveryChannel.cz@SD",Discovery Channel
 http://88.212.15.50/live/test_discovery_hd_hevc/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DiscoveryChannel.bg@SD" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利",Discovery Channel
+#EXTINF:-1 tvg-id="Discovery.Channel.HD.pl" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="DiscoveryChannel.bg@SD",Discovery Channel
 http://213.91.179.28:8000/play/a044
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DiscoveryChannel.fr@SD" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利",Discovery Channel
+#EXTINF:-1 tvg-id="Discovery.Channel.fr" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="DiscoveryChannel.fr@SD",Discovery Channel
 http://192.99.186.30/stream/68/index.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DiscoveryChannel.hu@SD" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利",Discovery Channel
+#EXTINF:-1 tvg-id="Discovery.Channel.HD.pl" tvg-name="Discovery Channel" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="DiscoveryChannel.hu@SD",Discovery Channel
 http://88.212.7.14/live/discovery_hungary/index.m3u8
-#EXTINF:-1 tvg-id="DiscoveryChannel.it@HD" tvg-name="Discovery Channel HD (720p)" tvg-logo="" group-title="欧洲/意大利",Discovery Channel HD (720p)
+#EXTINF:-1 tvg-id="Discovery.Channel.it" tvg-name="Discovery Channel HD (720p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="DiscoveryChannel.it@HD",Discovery Channel HD (720p)
 http://102.129.186.182:81/discovery/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTurbo.it@SD" tvg-name="Discovery Turbo (1080p)" tvg-logo="" group-title="欧洲/意大利",Discovery Turbo (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="EuroIndieMusicChartTV.it@SD" tvg-name="Euro Indie Music Chart TV (360p)" tvg-logo="" group-title="欧洲/意大利",Euro Indie Music Chart TV (360p)
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1 tvg-id="FoodNetwork.cz@SD" tvg-name="Food Network" tvg-logo="" group-title="欧洲/意大利",Food Network
+#EXTINF:-1 tvg-id="Food.Network.cz" tvg-name="Food Network" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="FoodNetwork.cz@SD",Food Network
 http://88.212.15.50/live/test_food_network_atk_tv/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="FoodNetwork.hu@SD" tvg-name="Food Network" tvg-logo="" group-title="欧洲/意大利",Food Network
+#EXTINF:-1 tvg-id="Food.Network.HD..gr" tvg-name="Food Network" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="FoodNetwork.hu@SD",Food Network
 http://88.212.7.14/live/fn_hungary/index.m3u8
-#EXTINF:-1 tvg-id="Giallo.it@SD" tvg-name="Giallo (1080p)" tvg-logo="" group-title="欧洲/意大利",Giallo (1080p)
+#EXTINF:-1 tvg-id="Giallo.ch" tvg-name="Giallo (1080p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="Giallo.it@SD",Giallo (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8
-#EXTINF:-1 tvg-id="GoldTV.it@SD" tvg-name="Gold TV (288p)" tvg-logo="" group-title="欧洲/意大利",Gold TV (288p)
+#EXTINF:-1 tvg-id="GOLD.TV.pl" tvg-name="Gold TV (288p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="GoldTV.it@SD",Gold TV (288p)
 https://5a1178b42cc03.streamlock.net/golditalia/golditalia/playlist.m3u8
-#EXTINF:-1 tvg-id="HGTV.cz@SD" tvg-name="HGTV" tvg-logo="" group-title="欧洲/意大利",HGTV
+#EXTINF:-1 tvg-id="HGTV.cz" tvg-name="HGTV" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="HGTV.cz@SD",HGTV
 http://88.212.15.50/live/test_hgtv_hevc_25p/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="HGTV.hu@SD" tvg-name="HGTV" tvg-logo="" group-title="欧洲/意大利",HGTV
+#EXTINF:-1 tvg-id="HGTV.HD.pl" tvg-name="HGTV" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="HGTV.hu@SD",HGTV
 http://88.212.7.14/live/hgtv_hun/index.m3u8
-#EXTINF:-1 tvg-id="La7Cinema.it@HD" tvg-name="La7 Cinema (720p)" tvg-logo="" group-title="欧洲/意大利",La7 Cinema (720p)
+#EXTINF:-1 tvg-id="LA7.CINEMA.it" tvg-name="La7 Cinema (720p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="La7Cinema.it@HD",La7 Cinema (720p)
 http://102.129.186.182:81/la7d/index.m3u8
 #EXTINF:-1 tvg-id="MariaVisionItalia.it@SD" tvg-name="Maria Vision (1080p)" tvg-logo="" group-title="欧洲/意大利",Maria Vision (1080p)
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:CHANNEL_2/playlist.m3u8
-#EXTINF:-1 tvg-id="NickJr.it@SD" tvg-name="Nick Jr. (720p)" tvg-logo="" group-title="欧洲/意大利",Nick Jr. (720p)
+#EXTINF:-1 tvg-id="Nick.Jr.it" tvg-name="Nick Jr. (720p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="NickJr.it@SD",Nick Jr. (720p)
 http://102.129.186.182:81/nick/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NickJr.cz@SD" tvg-name="Nick Jr." tvg-logo="" group-title="欧洲/意大利",Nick Jr.
+#EXTINF:-1 tvg-id="Nick.Jr..cz" tvg-name="Nick Jr." tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="NickJr.cz@SD",Nick Jr.
 http://88.212.15.50/live/test_nick_jr/playlist.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NickJr.hu@SD" tvg-name="Nick Jr." tvg-logo="" group-title="欧洲/意大利",Nick Jr.
+#EXTINF:-1 tvg-id="Nick.Jr..HD.pl" tvg-name="Nick Jr." tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="NickJr.hu@SD",Nick Jr.
 http://88.212.7.14/live/nick_junior_hun/index.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="NickJr.pl@SD" tvg-name="Nick Jr. (576i)" tvg-logo="" group-title="欧洲/意大利",Nick Jr. (576i)
+#EXTINF:-1 tvg-id="Nick.Jr..(pl).cz" tvg-name="Nick Jr. (576i)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="NickJr.pl@SD",Nick Jr. (576i)
 http://92.114.85.87:8013/play/a004/index.m3u8
-#EXTINF:-1 tvg-id="Nove.it@SD" tvg-name="Nove (1080p)" tvg-logo="" group-title="欧洲/意大利",Nove (1080p)
+#EXTINF:-1 tvg-id="Nove.it" tvg-name="Nove (1080p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="Nove.it@SD",Nove (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="OndaNovaraTV.it@SD" tvg-name="Onda Novara TV (720p) [Not 24/7]" tvg-logo="" group-title="欧洲/意大利",Onda Novara TV (720p) [Not 24/7]
 https://585b674743bbb.streamlock.net/9006/9006/master.m3u8
@@ -878,21 +882,21 @@ http://102.129.186.182:81/pescacaccia/index.m3u8
 http://178.32.140.155/canale51/canale51/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioMonteCarloTV.it@SD" tvg-name="Radio Monte Carlo TV" tvg-logo="" group-title="欧洲/意大利",Radio Monte Carlo TV
 http://95.141.36.9:8080/stream/180/index.m3u8
-#EXTINF:-1 tvg-id="RadioNorbaTV.it@SD" tvg-name="Radio Norba TV (1080p)" tvg-logo="" group-title="欧洲/意大利",Radio Norba TV (1080p)
+#EXTINF:-1 tvg-id="RADIONORBA.TV.it" tvg-name="Radio Norba TV (1080p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="RadioNorbaTV.it@SD",Radio Norba TV (1080p)
 https://stream12.xdevel.com/video0s975885-2349/stream/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="RadioStudioDeltaTV.it@SD" tvg-name="Radio Studio Delta TV (1080p) [Not 24/7]" tvg-logo="" group-title="欧洲/意大利",Radio Studio Delta TV (1080p) [Not 24/7]
 https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="RaiItalia.it@NorthAmericas" tvg-name="Rai Italia North Americas (1080p)" tvg-logo="" group-title="欧洲/意大利",Rai Italia North Americas (1080p)
+#EXTINF:-1 tvg-id="RAI.Italia.ch" tvg-name="Rai Italia North Americas (1080p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="RaiItalia.it@NorthAmericas",Rai Italia North Americas (1080p)
 http://138.59.177.78:9999/play/a0gf/index.m3u8
-#EXTINF:-1 tvg-id="RaiPremium.it@SD" tvg-name="Rai Premium" tvg-logo="" group-title="欧洲/意大利",Rai Premium
+#EXTINF:-1 tvg-id="RaiPremium.it" tvg-name="Rai Premium" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="RaiPremium.it@SD",Rai Premium
 http://95.141.36.9:8080/stream/170/index.m3u8
-#EXTINF:-1 tvg-id="RaiYoyo.it@SD" tvg-name="Rai Yoyo" tvg-logo="" group-title="欧洲/意大利",Rai Yoyo
+#EXTINF:-1 tvg-id="RaiYoyo.it" tvg-name="Rai Yoyo" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="RaiYoyo.it@SD",Rai Yoyo
 http://95.141.36.9:8080/stream/156/index.m3u8
-#EXTINF:-1 tvg-id="RealTime.it@SD" tvg-name="Real Time (1080p)" tvg-logo="" group-title="欧洲/意大利",Real Time (1080p)
+#EXTINF:-1 tvg-id="Real.Time.it" tvg-name="Real Time (1080p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="RealTime.it@SD",Real Time (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8
-#EXTINF:-1 tvg-id="RealTime.it@HD" tvg-name="Real Time HD (720p)" tvg-logo="" group-title="欧洲/意大利",Real Time HD (720p)
+#EXTINF:-1 tvg-id="Real.Time.it" tvg-name="Real Time HD (720p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="RealTime.it@HD",Real Time HD (720p)
 http://102.129.186.182:81/realtime/index.m3u8
-#EXTINF:-1 tvg-id="TV8.it@SD" tvg-name="TV8 (720p)" tvg-logo="" group-title="欧洲/意大利",TV8 (720p)
+#EXTINF:-1 tvg-id="TV8.HD.it" tvg-name="TV8 (720p)" tvg-logo="" group-title="欧洲/意大利" tvg-id-orig="TV8.it@SD",TV8 (720p)
 http://102.129.186.182:81/tv8/index.m3u8
 #EXTINF:-1 tvg-id="Telepace1.it@SD" tvg-name="Telepace 1 (1080p)" tvg-logo="" group-title="欧洲/意大利",Telepace 1 (1080p)
 https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8
@@ -900,83 +904,83 @@ https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f
 https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8
 
 # ==================== 欧洲/挪威 ====================
-#EXTINF:-1 tvg-id="NRK1.no@SD" tvg-name="NRK1 (720p)" tvg-logo="" group-title="欧洲/挪威",NRK1 (720p)
+#EXTINF:-1 tvg-id="NRK1.dk" tvg-name="NRK1 (720p)" tvg-logo="" group-title="欧洲/挪威" tvg-id-orig="NRK1.no@SD",NRK1 (720p)
 http://185.19.191.171:8090/NRK1/index.m3u8
 
 # ==================== 欧洲/捷克 ====================
-#EXTINF:-1 tvg-id="BarrandovKrimi.cz@SD" tvg-name="Barrandov Krimi (1080p)" tvg-logo="" group-title="欧洲/捷克",Barrandov Krimi (1080p)
+#EXTINF:-1 tvg-id="Barrandov.Krimi.cz" tvg-name="Barrandov Krimi (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="BarrandovKrimi.cz@SD",Barrandov Krimi (1080p)
 https://dash4.antik.sk/live/test_barrandov_plus_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNPrimaNews.cz@SD" tvg-name="CNN Prima News (1080p)" tvg-logo="" group-title="欧洲/捷克",CNN Prima News (1080p)
+#EXTINF:-1 tvg-id="CNN.Prima.News.cz" tvg-name="CNN Prima News (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="CNNPrimaNews.cz@SD",CNN Prima News (1080p)
 http://88.212.15.50/live/test_cnn_pirma_news/playlist.m3u8
-#EXTINF:-1 tvg-id="Cinemax.cz@Czechia" tvg-name="Cinemax" tvg-logo="" group-title="欧洲/捷克",Cinemax
+#EXTINF:-1 tvg-id="Cinemax.cz" tvg-name="Cinemax" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Cinemax.cz@Czechia",Cinemax
 http://88.212.15.50/live/test_cinemax_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="Cinemax2.cz@Czechia" tvg-name="Cinemax 2" tvg-logo="" group-title="欧洲/捷克",Cinemax 2
+#EXTINF:-1 tvg-id="Cinemax.2.cz" tvg-name="Cinemax 2" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Cinemax2.cz@Czechia",Cinemax 2
 http://88.212.15.50/live/test_cinemax2_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyJunior.cz@SD" tvg-name="Disney Junior" tvg-logo="" group-title="欧洲/捷克",Disney Junior
+#EXTINF:-1 tvg-id="Disney.Junior.cz" tvg-name="Disney Junior" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="DisneyJunior.cz@SD",Disney Junior
 http://88.212.15.50/live/test_disney_junior/playlist.m3u8
 #EXTINF:-1 tvg-id="Eurosport4KCzechia.cz@UHD" tvg-name="Eurosport 4K Czechia" tvg-logo="" group-title="欧洲/捷克",Eurosport 4K Czechia
 http://88.212.15.50/live/esp_4k_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="FilmPlus.cz@SD" tvg-name="Film+" tvg-logo="" group-title="欧洲/捷克",Film+
+#EXTINF:-1 tvg-id="Film+.cz" tvg-name="Film+" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="FilmPlus.cz@SD",Film+
 http://88.212.15.50/live/test_film_plus_25p/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="FilmPlus.hu@SD" tvg-name="Film+" tvg-logo="" group-title="欧洲/捷克",Film+
+#EXTINF:-1 tvg-id="Film+.cz" tvg-name="Film+" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="FilmPlus.hu@SD",Film+
 http://88.212.7.14/live/film_plus_hun_atk/index.m3u8
-#EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-name="Golf Channel" tvg-logo="" group-title="欧洲/捷克",Golf Channel
+#EXTINF:-1 tvg-id="Golf.Channel.cz" tvg-name="Golf Channel" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="GolfChannel.cz@SD",Golf Channel
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
-#EXTINF:-1 tvg-id="HBO.cz@SD" tvg-name="HBO" tvg-logo="" group-title="欧洲/捷克",HBO
+#EXTINF:-1 tvg-id="HBO.cz" tvg-name="HBO" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="HBO.cz@SD",HBO
 http://88.212.15.50/live/test_hbo_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="History2.cz@SD" tvg-name="History2" tvg-logo="" group-title="欧洲/捷克",History2
+#EXTINF:-1 tvg-id="History2.cz" tvg-name="History2" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="History2.cz@SD",History2
 http://88.212.15.50/live/test_h2/playlist.m3u8
 #EXTINF:-1 tvg-id="KinoBarrandov.cz@SD" tvg-name="Kino Barrandov" tvg-logo="" group-title="欧洲/捷克",Kino Barrandov
 http://88.212.15.50/live/test_kino_barrandov_sd_hevc50/playlist.m3u8
 #EXTINF:-1 tvg-id="MinimaxCEE.cz@SD" tvg-name="Minimax (576p) (576p)" tvg-logo="" group-title="欧洲/捷克",Minimax (576p) (576p)
 http://88.212.15.50/live/test_minimax/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Minimax.hu@SD" tvg-name="Minimax" tvg-logo="" group-title="欧洲/捷克",Minimax
+#EXTINF:-1 tvg-id="Minimax.(hu).cz" tvg-name="Minimax" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Minimax.hu@SD",Minimax
 http://88.212.7.14/live/minimax_hun/index.m3u8
-#EXTINF:-1 tvg-id="MusicBoxClassic.cz@SD" tvg-name="Music Box Classic" tvg-logo="" group-title="欧洲/捷克",Music Box Classic
+#EXTINF:-1 tvg-id="Music.Box.Classic.cz" tvg-name="Music Box Classic" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="MusicBoxClassic.cz@SD",Music Box Classic
 http://88.212.15.50/live/mb_classic/index.m3u8
-#EXTINF:-1 tvg-id="MusicBoxDance.cz@SD" tvg-name="Music Box Dance" tvg-logo="" group-title="欧洲/捷克",Music Box Dance
+#EXTINF:-1 tvg-id="Music.Box.Dance.cz" tvg-name="Music Box Dance" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="MusicBoxDance.cz@SD",Music Box Dance
 http://88.212.15.50/live/mb_dance/index.m3u8
-#EXTINF:-1 tvg-id="MusicBoxHits.cz@SD" tvg-name="Music Box Hits" tvg-logo="" group-title="欧洲/捷克",Music Box Hits
+#EXTINF:-1 tvg-id="Music.Box.Hits.cz" tvg-name="Music Box Hits" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="MusicBoxHits.cz@SD",Music Box Hits
 http://88.212.15.50/live/mb_hits/index.m3u8
-#EXTINF:-1 tvg-id="MusicBoxSexy.cz@SD" tvg-name="Music Box Sexy" tvg-logo="" group-title="欧洲/捷克",Music Box Sexy
+#EXTINF:-1 tvg-id="Music.Box.Sexy.cz" tvg-name="Music Box Sexy" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="MusicBoxSexy.cz@SD",Music Box Sexy
 http://88.212.15.50/live/mb_sexy/index.m3u8
 #EXTINF:-1 tvg-id="OckoStar.cz@SD" tvg-name="Ocko Star" tvg-logo="" group-title="欧洲/捷克",Ocko Star
 https://dash4.antik.sk/live/test_ocko_star/playlist.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cz@SD" tvg-name="Polar TV" tvg-logo="" group-title="欧洲/捷克",Polar TV
 https://dash4.antik.sk/live/test_polar_tv_atktv/playlist.m3u8
-#EXTINF:-1 tvg-id="Prima.cz@SD" tvg-name="Prima (1080p)" tvg-logo="" group-title="欧洲/捷克",Prima (1080p)
+#EXTINF:-1 tvg-id="Prima.cz" tvg-name="Prima (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Prima.cz@SD",Prima (1080p)
 http://88.212.15.50/live/prima_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaCool.cz@SD" tvg-name="Prima Cool" tvg-logo="" group-title="欧洲/捷克",Prima Cool
+#EXTINF:-1 tvg-id="Prima.Cool.cz" tvg-name="Prima Cool" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaCool.cz@SD",Prima Cool
 http://88.212.15.50/live/prima_cool_cz_avc/index.m3u8
-#EXTINF:-1 tvg-id="PrimaKrimi.cz@SD" tvg-name="Prima Krimi" tvg-logo="" group-title="欧洲/捷克",Prima Krimi
+#EXTINF:-1 tvg-id="Prima.Krimi.cz" tvg-name="Prima Krimi" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaKrimi.cz@SD",Prima Krimi
 http://88.212.15.50/live/test_prima_krimi_cz/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaLove.cz@SD" tvg-name="Prima Love" tvg-logo="" group-title="欧洲/捷克",Prima Love
+#EXTINF:-1 tvg-id="Prima.LOVE.cz" tvg-name="Prima Love" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaLove.cz@SD",Prima Love
 http://88.212.15.50/live/prima_love_cz_avc/index.m3u8
-#EXTINF:-1 tvg-id="PrimaMax.cz@SD" tvg-name="Prima Max" tvg-logo="" group-title="欧洲/捷克",Prima Max
+#EXTINF:-1 tvg-id="Prima.MAX.cz" tvg-name="Prima Max" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaMax.cz@SD",Prima Max
 http://88.212.15.50/live/test_prima_max_cz/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaShow.cz@SD" tvg-name="Prima Show (1080p)" tvg-logo="" group-title="欧洲/捷克",Prima Show (1080p)
+#EXTINF:-1 tvg-id="Prima.Show.cz" tvg-name="Prima Show (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaShow.cz@SD",Prima Show (1080p)
 http://88.212.15.50/live/test_prima_show_hevc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaStar.cz@SD" tvg-name="Prima Star (1080p)" tvg-logo="" group-title="欧洲/捷克",Prima Star (1080p)
+#EXTINF:-1 tvg-id="Prima.Star.cz" tvg-name="Prima Star (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaStar.cz@SD",Prima Star (1080p)
 http://88.212.15.50/live/test_prima_star_hevc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaZoom.cz@SD" tvg-name="Prima Zoom (1080p)" tvg-logo="" group-title="欧洲/捷克",Prima Zoom (1080p)
+#EXTINF:-1 tvg-id="Prima.ZOOM.cz" tvg-name="Prima Zoom (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="PrimaZoom.cz@SD",Prima Zoom (1080p)
 http://88.212.15.50/live/prima_zoom_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaloveSK.sk@SD" tvg-name="Prima love SK (1080p)" tvg-logo="" group-title="欧洲/捷克",Prima love SK (1080p)
 http://88.212.15.50/live/prima_love_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="Spektrum.cz@SD" tvg-name="Spektrum" tvg-logo="" group-title="欧洲/捷克",Spektrum
+#EXTINF:-1 tvg-id="Spektrum.cz" tvg-name="Spektrum" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Spektrum.cz@SD",Spektrum
 http://88.212.15.50/live/test_spektrum/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Spektrum.hu@SD" tvg-name="Spektrum" tvg-logo="" group-title="欧洲/捷克",Spektrum
+#EXTINF:-1 tvg-id="Spektrum.(hu).cz" tvg-name="Spektrum" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Spektrum.hu@SD",Spektrum
 http://88.212.7.14/live/spektrum_hun/index.m3u8
-#EXTINF:-1 tvg-id="SpektrumHome.cz@SD" tvg-name="Spektrum Home" tvg-logo="" group-title="欧洲/捷克",Spektrum Home
+#EXTINF:-1 tvg-id="Spektrum.Home.cz" tvg-name="Spektrum Home" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="SpektrumHome.cz@SD",Spektrum Home
 http://88.212.15.50/live/test_home_hevc/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="SpektrumHome.hu@SD" tvg-name="Spektrum Home" tvg-logo="" group-title="欧洲/捷克",Spektrum Home
+#EXTINF:-1 tvg-id="Spektrum.Home.(hu).cz" tvg-name="Spektrum Home" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="SpektrumHome.hu@SD",Spektrum Home
 http://88.212.7.14/live/spektrum_home_hun/index.m3u8
-#EXTINF:-1 tvg-id="Sport1.cz@HD" tvg-name="Sport1 HD" tvg-logo="" group-title="欧洲/捷克",Sport1 HD
+#EXTINF:-1 tvg-id="Sport1.cz" tvg-name="Sport1 HD" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Sport1.cz@HD",Sport1 HD
 http://88.212.7.14/live/sport1_cz_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="Sport2.cz@HD" tvg-name="Sport2 HD" tvg-logo="" group-title="欧洲/捷克",Sport2 HD
+#EXTINF:-1 tvg-id="Sport2.cz" tvg-name="Sport2 HD" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="Sport2.cz@HD",Sport2 HD
 http://88.212.7.14/live/sport2_cz_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBarrandov.cz@SD" tvg-name="TV Barrandov" tvg-logo="" group-title="欧洲/捷克",TV Barrandov
 http://88.212.15.50/live/test_barrandov/playlist.m3u8
@@ -987,15 +991,15 @@ http://88.212.15.50/live/test_parpika_tv_sd_hevc/playlist.m3u8
 http://88.212.7.14/live/parpika_hun/index.m3u8
 #EXTINF:-1 tvg-id="TelevizeSeznam.cz@SD" tvg-name="Televize Seznam (1080p)" tvg-logo="" group-title="欧洲/捷克",Televize Seznam (1080p)
 http://88.212.15.50/live/test_seznam_hevc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="WarnerTV.cz@SD" tvg-name="Warner TV" tvg-logo="" group-title="欧洲/捷克",Warner TV
+#EXTINF:-1 tvg-id="Warner.TV.cz" tvg-name="Warner TV" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="WarnerTV.cz@SD",Warner TV
 http://88.212.15.50/live/warner_tv/index.m3u8
-#EXTINF:-1 tvg-id="CT1.cz@SD" tvg-name="ČT 1" tvg-logo="" group-title="欧洲/捷克",ČT 1
+#EXTINF:-1 tvg-id="CT.1.pl" tvg-name="ČT 1" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="CT1.cz@SD",ČT 1
 http://88.212.15.50/live/test_ct1_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="CT2.cz@SD" tvg-name="ČT 2" tvg-logo="" group-title="欧洲/捷克",ČT 2
+#EXTINF:-1 tvg-id="CT.2.pl" tvg-name="ČT 2" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="CT2.cz@SD",ČT 2
 http://88.212.15.50/live/test_ct2_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="CTSport.cz@SD" tvg-name="ČT Sport (720p)" tvg-logo="" group-title="欧洲/捷克",ČT Sport (720p)
 http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="CT24.cz@SD" tvg-name="ČT24 (1080p)" tvg-logo="" group-title="欧洲/捷克",ČT24 (1080p)
+#EXTINF:-1 tvg-id="CT24.ch" tvg-name="ČT24 (1080p)" tvg-logo="" group-title="欧洲/捷克" tvg-id-orig="CT24.cz@SD",ČT24 (1080p)
 http://88.212.15.50/live/test_ct24_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="CTDecko.cz@SD" tvg-name="ČT:D/ČT art (1080p)" tvg-logo="" group-title="欧洲/捷克",ČT:D/ČT art (1080p)
 http://88.212.15.50/live/ct_art_avc_25p/playlist.m3u8
@@ -1011,33 +1015,33 @@ http://188.237.212.16:8888/live/cameraFeed.m3u8
 http://88.212.15.50/live/test_trojka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="Sport.sk@SD" tvg-name=":Šport (1080p)" tvg-logo="" group-title="欧洲/斯洛伐克",:Šport (1080p)
 http://88.212.15.50/live/test_rtvs_sport_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-name="Al Jazeera English" tvg-logo="" group-title="欧洲/斯洛伐克",Al Jazeera English
+#EXTINF:-1 tvg-id="Al.Jazeera.English.HD.gr" tvg-name="Al Jazeera English" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="AlJazeera.qa@English",Al Jazeera English
 https://dash4.antik.sk/live/test_aljazeera_eng/playlist.m3u8
 #EXTINF:-1 tvg-id="AntikInfoTV.sk@HD" tvg-name="Antik Info TV (1080p)" tvg-logo="" group-title="欧洲/斯洛伐克",Antik Info TV (1080p)
 https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="ArenaSport1.sk@SD" tvg-name="Arena Sport 1" tvg-logo="" group-title="欧洲/斯洛伐克",Arena Sport 1
+#EXTINF:-1 tvg-id="Arena.Sport.1.cz" tvg-name="Arena Sport 1" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="ArenaSport1.sk@SD",Arena Sport 1
 http://88.212.15.50/live/test_arenasport/playlist.m3u8
-#EXTINF:-1 tvg-id="ArenaSport2.sk@SD" tvg-name="Arena Sport 2" tvg-logo="" group-title="欧洲/斯洛伐克",Arena Sport 2
+#EXTINF:-1 tvg-id="Arena.Sport.2.cz" tvg-name="Arena Sport 2" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="ArenaSport2.sk@SD",Arena Sport 2
 http://88.212.15.50/live/test_arenasport_dva/playlist.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-name="CGTN" tvg-logo="" group-title="欧洲/斯洛伐克",CGTN
+#EXTINF:-1 tvg-id="CGTN.ch" tvg-name="CGTN" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="CGTN.cn@SD",CGTN
 https://dash4.antik.sk/live/test_cgtn/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNFrench.cn@SD" tvg-name="CGTN French" tvg-logo="" group-title="欧洲/斯洛伐克",CGTN French
 https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNRussian.cn@SD" tvg-name="CGTN Russian" tvg-logo="" group-title="欧洲/斯洛伐克",CGTN Russian
 https://dash3.antik.sk/live/test_cgtn_rus_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Dvojka.sk@SD" tvg-name="Dvojka" tvg-logo="" group-title="欧洲/斯洛伐克",Dvojka
+#EXTINF:-1 tvg-id="Dvojka.cz" tvg-name="Dvojka" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="Dvojka.sk@SD",Dvojka
 http://88.212.15.50/live/test_dvojka_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="EnglishClubTV.uk@SD" tvg-name="English Club TV (576i)" tvg-logo="" group-title="欧洲/斯洛伐克",English Club TV (576i)
+#EXTINF:-1 tvg-id="English.Club.TV.HD.pl" tvg-name="English Club TV (576i)" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="EnglishClubTV.uk@SD",English Club TV (576i)
 https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr@HD" tvg-name="Euronews English HD" tvg-logo="" group-title="欧洲/斯洛伐克",Euronews English HD
+#EXTINF:-1 tvg-id="Euronews.English.gr" tvg-name="Euronews English HD" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="EuronewsEnglish.fr@HD",Euronews English HD
 https://dash4.antik.sk/live/test_euronews/playlist.m3u8
-#EXTINF:-1 tvg-id="Jednotka.sk@SD" tvg-name="Jednotka" tvg-logo="" group-title="欧洲/斯洛伐克",Jednotka
+#EXTINF:-1 tvg-id="Jednotka.cz" tvg-name="Jednotka" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="Jednotka.sk@SD",Jednotka
 http://88.212.15.50/live/test_jednotka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="KechnecTV.sk@SD" tvg-name="Kechnec TV" tvg-logo="" group-title="欧洲/斯洛伐克",Kechnec TV
 http://88.212.7.14/live/test_kechnec_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="KiKA.de@HD" tvg-name="KiKA HD" tvg-logo="" group-title="欧洲/斯洛伐克",KiKA HD
+#EXTINF:-1 tvg-id="KIKA.de" tvg-name="KiKA HD" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="KiKA.de@HD",KiKA HD
 https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="LifeTV.hu@SD" tvg-name="Life TV" tvg-logo="" group-title="欧洲/斯洛伐克",Life TV
+#EXTINF:-1 tvg-id="LifeTV.cz" tvg-name="Life TV" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="LifeTV.hu@SD",Life TV
 http://88.212.7.14/live/lifetv/index.m3u8
 #EXTINF:-1 tvg-id="MDRFernsehen.de@Thuringen" tvg-name="MDR Fernsehen Thuringen" tvg-logo="" group-title="欧洲/斯洛伐克",MDR Fernsehen Thuringen
 https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8
@@ -1045,23 +1049,23 @@ https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8
 http://88.212.7.14/live/test_mpjedna_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaCoolSK.sk@SD" tvg-name="Prima Cool SK (1080p)" tvg-logo="" group-title="欧洲/斯洛伐克",Prima Cool SK (1080p)
 http://88.212.15.50/live/prima_cool_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaKrimiSK.sk@HD" tvg-name="Prima Krimi SK" tvg-logo="" group-title="欧洲/斯洛伐克",Prima Krimi SK
+#EXTINF:-1 tvg-id="Prima.KRIMI.SK.cz" tvg-name="Prima Krimi SK" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="PrimaKrimiSK.sk@HD",Prima Krimi SK
 http://88.212.15.50/live/prima_krimi_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaSK.sk@HD" tvg-name="Prima SK" tvg-logo="" group-title="欧洲/斯洛伐克",Prima SK
+#EXTINF:-1 tvg-id="Prima.SK.cz" tvg-name="Prima SK" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="PrimaSK.sk@HD",Prima SK
 http://88.212.15.50/live/test_prima_plus_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="ProSieben.de@SD" tvg-name="ProSieben (1080p)" tvg-logo="" group-title="欧洲/斯洛伐克",ProSieben (1080p)
+#EXTINF:-1 tvg-id="ProSieben.de" tvg-name="ProSieben (1080p)" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="ProSieben.de@SD",ProSieben (1080p)
 https://dash4.antik.sk/live/test_pro_sieben_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="SAT1Gold.de@SD" tvg-name="SAT.1 Gold (576p)" tvg-logo="" group-title="欧洲/斯洛伐克",SAT.1 Gold (576p)
+#EXTINF:-1 tvg-id="SAT.1.Gold.de" tvg-name="SAT.1 Gold (576p)" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="SAT1Gold.de@SD",SAT.1 Gold (576p)
 https://dash4.antik.sk/live/test_sat_eins_gold_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Sport1.cz@SD" tvg-name="Sport1" tvg-logo="" group-title="欧洲/斯洛伐克",Sport1
+#EXTINF:-1 tvg-id="Sport1.cz" tvg-name="Sport1" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="Sport1.cz@SD",Sport1
 http://88.212.15.50/live/test_sport1_25p/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Sport1.hu@SD" tvg-name="Sport 1" tvg-logo="" group-title="欧洲/斯洛伐克",Sport 1
+#EXTINF:-1 tvg-id="Sport1.(hu).cz" tvg-name="Sport 1" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="Sport1.hu@SD",Sport 1
 http://88.212.7.14/live/sport1_hun/index.m3u8
-#EXTINF:-1 tvg-id="Sport2.cz@SD" tvg-name="Sport2" tvg-logo="" group-title="欧洲/斯洛伐克",Sport2
+#EXTINF:-1 tvg-id="Sport2.cz" tvg-name="Sport2" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="Sport2.cz@SD",Sport2
 http://88.212.15.50/live/test_sport_2/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Sport2.hu@SD" tvg-name="Sport 2" tvg-logo="" group-title="欧洲/斯洛伐克",Sport 2
+#EXTINF:-1 tvg-id="Sport2.(hu).cz" tvg-name="Sport 2" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="Sport2.hu@SD",Sport 2
 http://88.212.7.14/live/sport2_hun/index.m3u8
 #EXTINF:-1 tvg-id="TVCentral.sk@SD" tvg-name="TV Central" tvg-logo="" group-title="欧洲/斯洛伐克",TV Central
 https://dash4.antik.sk/live/test_central/playlist.m3u8
@@ -1077,34 +1081,34 @@ http://109.74.145.11:1935/tv8/mp4:tv8.stream_360p/playlist.m3u8
 http://88.212.15.50/live/via_tv/index.m3u8
 #EXTINF:-1 tvg-id="ZapadoslovenskaTV.sk@SD" tvg-name="Zapadoslovenska TV" tvg-logo="" group-title="欧洲/斯洛伐克",Zapadoslovenska TV
 https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8
-#EXTINF:-1 tvg-id="arte.de@HD" tvg-name="arte HD" tvg-logo="" group-title="欧洲/斯洛伐克",arte HD
+#EXTINF:-1 tvg-id="ARTE.de" tvg-name="arte HD" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="arte.de@HD",arte HD
 https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="ducktvPLUS.sk@SD" tvg-name="ducktv PLUS" tvg-logo="" group-title="欧洲/斯洛伐克",ducktv PLUS
+#EXTINF:-1 tvg-id="ducktv.plus.cz" tvg-name="ducktv PLUS" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="ducktvPLUS.sk@SD",ducktv PLUS
 https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
-#EXTINF:-1 tvg-id="hrfernsehen.de@HD" tvg-name="hr-fernsehen HD" tvg-logo="" group-title="欧洲/斯洛伐克",hr-fernsehen HD
+#EXTINF:-1 tvg-id="HR-fernsehen.cz" tvg-name="hr-fernsehen HD" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="hrfernsehen.de@HD",hr-fernsehen HD
 https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="kabeleins.de@SD" tvg-name="kabel eins" tvg-logo="" group-title="欧洲/斯洛伐克",kabel eins
+#EXTINF:-1 tvg-id="kabel.eins.de" tvg-name="kabel eins" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="kabeleins.de@SD",kabel eins
 https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="sixx.de@SD" tvg-name="sixx" tvg-logo="" group-title="欧洲/斯洛伐克",sixx
+#EXTINF:-1 tvg-id="sixx.de" tvg-name="sixx" tvg-logo="" group-title="欧洲/斯洛伐克" tvg-id-orig="sixx.de@SD",sixx
 https://dash4.antik.sk/live/test_sixx_tizen/playlist.m3u8
 
 # ==================== 欧洲/斯洛文尼亚 ====================
-#EXTINF:-1 tvg-id="History.bg@SD" tvg-name="History" tvg-logo="" group-title="欧洲/斯洛文尼亚",History
+#EXTINF:-1 tvg-id="HISTORY.HD.pl" tvg-name="History" tvg-logo="" group-title="欧洲/斯洛文尼亚" tvg-id-orig="History.bg@SD",History
 http://213.91.179.28:8000/play/a0c1
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="History.cz@SD" tvg-name="History" tvg-logo="" group-title="欧洲/斯洛文尼亚",History
+#EXTINF:-1 tvg-id="HISTORY.HD.pl" tvg-name="History" tvg-logo="" group-title="欧洲/斯洛文尼亚" tvg-id-orig="History.cz@SD",History
 http://88.212.15.50/live/test_history/playlist.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="History.hu@SD" tvg-name="History" tvg-logo="" group-title="欧洲/斯洛文尼亚",History
+#EXTINF:-1 tvg-id="HISTORY.HD.pl" tvg-name="History" tvg-logo="" group-title="欧洲/斯洛文尼亚" tvg-id-orig="History.hu@SD",History
 http://88.212.7.14/live/history_hun/index.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="History.pl@SD" tvg-name="History (576i)" tvg-logo="" group-title="欧洲/斯洛文尼亚",History (576i)
+#EXTINF:-1 tvg-id="History.(pl).cz" tvg-name="History (576i)" tvg-logo="" group-title="欧洲/斯洛文尼亚" tvg-id-orig="History.pl@SD",History (576i)
 http://92.114.85.87:8015/play/a00c/index.m3u8
 
 # ==================== 欧洲/比利时 ====================
 #EXTINF:-1 tvg-id="ACTV.be@SD" tvg-name="ACTV (504p)" tvg-logo="" group-title="欧洲/比利时",ACTV (504p)
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/4db788c7/index.m3u8
-#EXTINF:-1 tvg-id="ATV.hu@SD" tvg-name="ATV" tvg-logo="" group-title="欧洲/比利时",ATV
+#EXTINF:-1 tvg-id="ATV.at" tvg-name="ATV" tvg-logo="" group-title="欧洲/比利时" tvg-id-orig="ATV.hu@SD",ATV
 http://88.212.7.14/live/test_atv_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="BX1.be@SD" tvg-name="BX1 (504p)" tvg-logo="" group-title="欧洲/比利时",BX1 (504p)
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/7ec67c8d/index.m3u8
@@ -1140,93 +1144,93 @@ https://d1hz1p2gea2zy4.cloudfront.net/live/rmgtv/RMG-TRENDSZNL-LIVE/index.m3u8
 https://wtvlive.b-cdn.net/playlist.m3u8
 
 # ==================== 欧洲/法国 ====================
-#EXTINF:-1 tvg-id="13emeRue.fr@SD" tvg-name="13eme Rue" tvg-logo="" group-title="欧洲/法国",13eme Rue
+#EXTINF:-1 tvg-id="13eme.Rue.ch" tvg-name="13eme Rue" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="13emeRue.fr@SD",13eme Rue
 http://192.99.186.30/stream/251/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsFrench.fr@SD" tvg-name="Africanews French (720p)" tvg-logo="" group-title="欧洲/法国",Africanews French (720p)
 https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
-#EXTINF:-1 tvg-id="Boomerang.fr@HD" tvg-name="Boomerang HD (720p)" tvg-logo="" group-title="欧洲/法国",Boomerang HD (720p)
+#EXTINF:-1 tvg-id="Boomerang.fr" tvg-name="Boomerang HD (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Boomerang.fr@HD",Boomerang HD (720p)
 http://41.205.93.154/BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsGerman.fr@SD" tvg-name="Euronews German (720p)" tvg-logo="" group-title="欧洲/法国",Euronews German (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8
-#EXTINF:-1 tvg-id="EuronewsItalian.fr@SD" tvg-name="Euronews Italian (720p)" tvg-logo="" group-title="欧洲/法国",Euronews Italian (720p)
+#EXTINF:-1 tvg-id="Euronews.Italian.gr" tvg-name="Euronews Italian (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="EuronewsItalian.fr@SD",Euronews Italian (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-it/25085/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsPortuguese.fr@SD" tvg-name="Euronews Portuguese (720p)" tvg-logo="" group-title="欧洲/法国",Euronews Portuguese (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-pt/25040/index.m3u8
-#EXTINF:-1 tvg-id="EuronewsRussian.fr@SD" tvg-name="Euronews Russian (720p)" tvg-logo="" group-title="欧洲/法国",Euronews Russian (720p)
+#EXTINF:-1 tvg-id="Euronews.Russian.gr" tvg-name="Euronews Russian (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="EuronewsRussian.fr@SD",Euronews Russian (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport1.fr@Bulgaria" tvg-name="Eurosport 1 Bulgaria" tvg-logo="" group-title="欧洲/法国",Eurosport 1 Bulgaria
+#EXTINF:-1 tvg-id="Eurosport.1..fr" tvg-name="Eurosport 1 Bulgaria" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport1.fr@Bulgaria",Eurosport 1 Bulgaria
 http://213.91.179.28:8000/play/a05y
-#EXTINF:-1 tvg-id="Eurosport1.fr@Czechia" tvg-name="Eurosport 1 Czechia" tvg-logo="" group-title="欧洲/法国",Eurosport 1 Czechia
+#EXTINF:-1 tvg-id="Eurosport.1..fr" tvg-name="Eurosport 1 Czechia" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport1.fr@Czechia",Eurosport 1 Czechia
 http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport1.fr@Germany" tvg-name="Eurosport 1 Germany" tvg-logo="" group-title="欧洲/法国",Eurosport 1 Germany
+#EXTINF:-1 tvg-id="Eurosport.1..fr" tvg-name="Eurosport 1 Germany" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport1.fr@Germany",Eurosport 1 Germany
 http://90.183.52.46:4000/play/a06v/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport1.fr@Hungary" tvg-name="Eurosport 1 Hungary" tvg-logo="" group-title="欧洲/法国",Eurosport 1 Hungary
+#EXTINF:-1 tvg-id="Eurosport.1..fr" tvg-name="Eurosport 1 Hungary" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport1.fr@Hungary",Eurosport 1 Hungary
 http://88.212.7.14/live/esp1_hun/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport1.fr@Romania" tvg-name="Eurosport 1 Romania" tvg-logo="" group-title="欧洲/法国",Eurosport 1 Romania
+#EXTINF:-1 tvg-id="Eurosport.1..fr" tvg-name="Eurosport 1 Romania" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport1.fr@Romania",Eurosport 1 Romania
 http://89.44.231.73:7000/eurosport
-#EXTINF:-1 tvg-id="Eurosport1.fr@Spain" tvg-name="Eurosport 1 Spain (576p)" tvg-logo="" group-title="欧洲/法国",Eurosport 1 Spain (576p)
+#EXTINF:-1 tvg-id="Eurosport.1..fr" tvg-name="Eurosport 1 Spain (576p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport1.fr@Spain",Eurosport 1 Spain (576p)
 http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Bulgaria" tvg-name="Eurosport 2 Bulgaria" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Bulgaria
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Bulgaria" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Bulgaria",Eurosport 2 Bulgaria
 http://213.91.179.28:8000/play/a04b
-#EXTINF:-1 tvg-id="Eurosport2.fr@Czechia" tvg-name="Eurosport 2 Czechia" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Czechia
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Czechia" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Czechia",Eurosport 2 Czechia
 http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Germany" tvg-name="Eurosport 2 Germany" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Germany
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Germany" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Germany",Eurosport 2 Germany
 http://46.244.99.71:8181/stream/74/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Hungary" tvg-name="Eurosport 2 Hungary" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Hungary
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Hungary" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Hungary",Eurosport 2 Hungary
 http://88.212.7.14/live/esp2_hun/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Romania" tvg-name="Eurosport 2 Romania" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Romania
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Romania" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Romania",Eurosport 2 Romania
 http://89.44.231.73:7000/eurosport2
-#EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-name="Eurosport 2 Russia (1080p)" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Russia (1080p)
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Russia (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Russia",Eurosport 2 Russia (1080p)
 https://s7.iptv-24.net/1452/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Spain" tvg-name="Eurosport 2 Spain (1080p)" tvg-logo="" group-title="欧洲/法国",Eurosport 2 Spain (1080p)
+#EXTINF:-1 tvg-id="Eurosport.2..fr" tvg-name="Eurosport 2 Spain (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Eurosport2.fr@Spain",Eurosport 2 Spain (1080p)
 http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
-#EXTINF:-1 tvg-id="France24.fr@French" tvg-name="France 24" tvg-logo="" group-title="欧洲/法国",France 24
+#EXTINF:-1 tvg-id="France.24.fr" tvg-name="France 24" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="France24.fr@French",France 24
 https://dash4.antik.sk/live/test_france24_france/playlist.m3u8
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (720p)" tvg-logo="" group-title="欧洲/法国",France 24 English (720p)
+#EXTINF:-1 tvg-id="France.24.fr" tvg-name="France 24 English (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="France24.fr@English",France 24 English (720p)
 http://170.83.16.50/FRANCE_24/index.m3u8
-#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Spanish (720p)" tvg-logo="" group-title="欧洲/法国",France 24 Spanish (720p)
+#EXTINF:-1 tvg-id="France.24.fr" tvg-name="France 24 Spanish (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="France24.fr@Spanish",France 24 Spanish (720p)
 http://138.121.15.230:9002/FRANCE-24/index.m3u8
-#EXTINF:-1 tvg-id="France3.fr@National" tvg-name="France 3" tvg-logo="" group-title="欧洲/法国",France 3
+#EXTINF:-1 tvg-id="France.3..fr" tvg-name="France 3" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="France3.fr@National",France 3
 http://85.14.32.26:8800/udp/239.100.10.144:5000
-#EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-name="Gulli (1080p)" tvg-logo="" group-title="欧洲/法国",Gulli (1080p)
+#EXTINF:-1 tvg-id="Gulli.fr" tvg-name="Gulli (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Gulli.fr@SD",Gulli (1080p)
 http://99.27.51.147:8080/Gulli/index.m3u8
-#EXTINF:-1 tvg-id="M6.fr@HD" tvg-name="M6 (1080p)" tvg-logo="" group-title="欧洲/法国",M6 (1080p)
+#EXTINF:-1 tvg-id="M6.fr" tvg-name="M6 (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="M6.fr@HD",M6 (1080p)
 http://99.27.51.147:8080/M6/index.m3u8
-#EXTINF:-1 tvg-id="MezzoLive.fr@SD" tvg-name="Mezzo Live" tvg-logo="" group-title="欧洲/法国",Mezzo Live
+#EXTINF:-1 tvg-id="Mezzo.Live.HD.fr" tvg-name="Mezzo Live" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="MezzoLive.fr@SD",Mezzo Live
 http://45.84.187.172:3001/udp/239.10.10.76:5000
-#EXTINF:-1 tvg-id="Nickelodeon.bg@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.HD.gr" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.bg@SD",Nickelodeon
 http://87.120.179.187:8000/play/a00x
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.bg@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.HD.gr" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.bg@SD",Nickelodeon
 http://213.91.179.28:8000/play/a056
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.cz@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.cz@SD",Nickelodeon
 http://88.212.15.50/live/test_nickelodeon_hevc_25p/playlist.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.cz@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.cz@SD",Nickelodeon
 http://193.33.39.108:9011/play/a018
 # 备份4 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.hu@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.(hu).cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.hu@SD",Nickelodeon
 http://88.212.7.14/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
 # 备份5 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.hu@SD" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.(hu).cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.hu@SD",Nickelodeon
 http://193.33.39.108:9011/play/a017
-#EXTINF:-1 tvg-id="Nicktoons.cz@SD" tvg-name="Nicktoons" tvg-logo="" group-title="欧洲/法国",Nicktoons
+#EXTINF:-1 tvg-id="Nicktoons.cz" tvg-name="Nicktoons" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nicktoons.cz@SD",Nicktoons
 http://88.212.15.50/live/test_nicktoons/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nicktoons.hu@SD" tvg-name="Nicktoons" tvg-logo="" group-title="欧洲/法国",Nicktoons
+#EXTINF:-1 tvg-id="Nicktoons.HD.pl" tvg-name="Nicktoons" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nicktoons.hu@SD",Nicktoons
 http://88.212.7.14/live/nicktoons_hungary/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nicktoons.pl@SD" tvg-name="Nicktoons (576i)" tvg-logo="" group-title="欧洲/法国",Nicktoons (576i)
+#EXTINF:-1 tvg-id="Nicktoons.(pl).cz" tvg-name="Nicktoons (576i)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nicktoons.pl@SD",Nicktoons (576i)
 http://92.114.85.87:8013/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="RMCDecouverte.fr@SD" tvg-name="RMC Decouverte (1080p)" tvg-logo="" group-title="欧洲/法国",RMC Decouverte (1080p)
 https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/rmc_decouverte/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="RMCLife.fr@SD" tvg-name="RMC Life (1080p)" tvg-logo="" group-title="欧洲/法国",RMC Life (1080p)
 https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/cherie_25/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="RMCStory.fr@SD" tvg-name="RMC Story (1080p)" tvg-logo="" group-title="欧洲/法国",RMC Story (1080p)
+#EXTINF:-1 tvg-id="RMC.STORY.fr" tvg-name="RMC Story (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="RMCStory.fr@SD",RMC Story (1080p)
 https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
-#EXTINF:-1 tvg-id="RMCStory.fr@SD" tvg-name="RMC Story (720p)" tvg-logo="" group-title="欧洲/法国",RMC Story (720p)
+#EXTINF:-1 tvg-id="RMC.STORY.fr" tvg-name="RMC Story (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="RMCStory.fr@SD",RMC Story (720p)
 https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/rmc_story/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneBlacklist.fr@HD" tvg-name="Sony One Blacklist (1080p)" tvg-logo="" group-title="欧洲/法国",Sony One Blacklist (1080p)
 https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8
@@ -1234,7 +1238,7 @@ https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8
 https://d1tvu4639eiqii.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneHitsComedie.fr@HD" tvg-name="Sony One Hits Comedie (1080p)" tvg-logo="" group-title="欧洲/法国",Sony One Hits Comedie (1080p)
 https://d3nvxupr08boay.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="T18.fr@HD" tvg-name="T18 (720p)" tvg-logo="" group-title="欧洲/法国",T18 (720p)
+#EXTINF:-1 tvg-id="T18...fr" tvg-name="T18 (720p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="T18.fr@HD",T18 (720p)
 https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/t18/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TVAlsace.fr@HD" tvg-name="TV Alsace (1080p)" tvg-logo="" group-title="欧洲/法国",TV Alsace (1080p)
 http://194.163.157.137:8080/hls/radioalsace.m3u8
@@ -1244,9 +1248,9 @@ http://194.163.157.137:8080/hls/radiomulhouse.m3u8
 http://5.9.121.178/tv5monde/index.m3u8
 #EXTINF:-1 tvg-id="TraceBrazuca.fr@SD" tvg-name="Trace Brazuca (1090p)" tvg-logo="" group-title="欧洲/法国",Trace Brazuca (1090p)
 https://channels.trace.plus/Traceprod/BRAZIL_sd/index.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@NigeriaandEastAfrica" tvg-name="Trace Gospel Nigeria and East Africa (1080p)" tvg-logo="" group-title="欧洲/法国",Trace Gospel Nigeria and East Africa (1080p)
+#EXTINF:-1 tvg-id="Trace.Gospel.fr" tvg-name="Trace Gospel Nigeria and East Africa (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="TraceGospel.fr@NigeriaandEastAfrica",Trace Gospel Nigeria and East Africa (1080p)
 https://channels.trace.plus/Traceprod/GOSPEL_ROA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-name="Trace Latina (1080p)" tvg-logo="" group-title="欧洲/法国",Trace Latina (1080p)
+#EXTINF:-1 tvg-id="Trace.Latina.fr" tvg-name="Trace Latina (1080p)" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="TraceLatina.fr@SD",Trace Latina (1080p)
 https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceMziki.fr@SD" tvg-name="Trace Mziki (1080p)" tvg-logo="" group-title="欧洲/法国",Trace Mziki (1080p)
 https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8
@@ -1254,7 +1258,7 @@ https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 
 # ==================== 欧洲/波兰 ====================
-#EXTINF:-1 tvg-id="4FunDance.pl@SD" tvg-name="4 Fun Dance" tvg-logo="" group-title="欧洲/波兰",4 Fun Dance
+#EXTINF:-1 tvg-id="4FUN.DANCE.pl" tvg-name="4 Fun Dance" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="4FunDance.pl@SD",4 Fun Dance
 http://92.114.85.87:8018/play/a00k/index.m3u8
 #EXTINF:-1 tvg-id="ATMRozrywkaREWORK.pl" tvg-name="ATM Rozrywka REWORK (1080p)" tvg-logo="" group-title="欧洲/波兰",ATM Rozrywka REWORK (1080p)
 https://183.giatvcdn.com/giatvplayout7/giatv-211353/playlist.m3u8
@@ -1262,38 +1266,36 @@ https://183.giatvcdn.com/giatvplayout7/giatv-211353/playlist.m3u8
 http://92.114.85.87:8015/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="CANALPlus360.pl@SD" tvg-name="CANAL+ 360 (576i)" tvg-logo="" group-title="欧洲/波兰",CANAL+ 360 (576i)
 http://92.114.85.87:8019/play/a003/index.m3u8
-#EXTINF:-1 tvg-id="CBeebies.pl@SD" tvg-name="CBeebies (576p)" tvg-logo="" group-title="欧洲/波兰",CBeebies (576p)
+#EXTINF:-1 tvg-id="CBeebies.HD.uk" tvg-name="CBeebies (576p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="CBeebies.pl@SD",CBeebies (576p)
 http://92.114.85.87:8017/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusDomo.pl@SD" tvg-name="Canal+ Domo (576i)" tvg-logo="" group-title="欧洲/波兰",Canal+ Domo (576i)
 http://92.114.85.87:8019/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusKuchnia.pl@SD" tvg-name="Canal+ Kuchnia (576i)" tvg-logo="" group-title="欧洲/波兰",Canal+ Kuchnia (576i)
 http://92.114.85.87:8019/play/a009/index.m3u8
-#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-name="Cartoon Classics" tvg-logo="" group-title="欧洲/波兰",Cartoon Classics
-http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="CrimePlusInvestigationPolsat.pl@SD" tvg-name="Crime + Investigation Polsat (576i)" tvg-logo="" group-title="欧洲/波兰",Crime + Investigation Polsat (576i)
 http://92.114.85.87:8015/play/a00d/index.m3u8
-#EXTINF:-1 tvg-id="DiscoPoloMusic.pl@SD" tvg-name="Disco Polo Music (1080p)" tvg-logo="" group-title="欧洲/波兰",Disco Polo Music (1080p)
+#EXTINF:-1 tvg-id="Disco.Polo.Music.pl" tvg-name="Disco Polo Music (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="DiscoPoloMusic.pl@SD",Disco Polo Music (1080p)
 http://92.114.85.87:8014/play/a007/index.m3u8
 # 备份1 | 时延 9999ms | 画质 1080p/FHD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DiscoPoloMusic.pl@SD" tvg-name="Disco Polo Music (1080p)" tvg-logo="" group-title="欧洲/波兰",Disco Polo Music (1080p)
+#EXTINF:-1 tvg-id="Disco.Polo.Music.pl" tvg-name="Disco Polo Music (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="DiscoPoloMusic.pl@SD",Disco Polo Music (1080p)
 http://185.227.34.179:8080/disco-polo-music/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.pl@HD" tvg-name="Disney Channel HD (1080p)" tvg-logo="" group-title="欧洲/波兰",Disney Channel HD (1080p)
+#EXTINF:-1 tvg-id="Disney.Channel.HD.pl" tvg-name="Disney Channel HD (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="DisneyChannel.pl@HD",Disney Channel HD (1080p)
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
-#EXTINF:-1 tvg-id="DisneyXD.pl@SD" tvg-name="Disney XD (576p)" tvg-logo="" group-title="欧洲/波兰",Disney XD (576p)
+#EXTINF:-1 tvg-id="Disney.XD.pl" tvg-name="Disney XD (576p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="DisneyXD.pl@SD",Disney XD (576p)
 http://185.227.34.179:8080/disney-xd/index.m3u8
-#EXTINF:-1 tvg-id="ElevenSports1.pl@SD" tvg-name="Eleven Sports 1" tvg-logo="" group-title="欧洲/波兰",Eleven Sports 1
+#EXTINF:-1 tvg-id="Eleven.Sports.1.4K.pl" tvg-name="Eleven Sports 1" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="ElevenSports1.pl@SD",Eleven Sports 1
 http://92.114.85.87:8002/play/a00e/index.m3u8
-#EXTINF:-1 tvg-id="ElevenSports2.pl@SD" tvg-name="Eleven Sports 2 (1080p)" tvg-logo="" group-title="欧洲/波兰",Eleven Sports 2 (1080p)
+#EXTINF:-1 tvg-id="Eleven.Sports.2.HD.pl" tvg-name="Eleven Sports 2 (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="ElevenSports2.pl@SD",Eleven Sports 2 (1080p)
 http://92.114.85.87:8002/play/a00f/index.m3u8
-#EXTINF:-1 tvg-id="ElevenSports3.pl@SD" tvg-name="Eleven Sports 3 (1080p)" tvg-logo="" group-title="欧洲/波兰",Eleven Sports 3 (1080p)
+#EXTINF:-1 tvg-id="Eleven.Sports.3.HD.pl" tvg-name="Eleven Sports 3 (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="ElevenSports3.pl@SD",Eleven Sports 3 (1080p)
 http://92.114.85.87:8002/play/a00g/index.m3u8
-#EXTINF:-1 tvg-id="ElevenSports4.pl@SD" tvg-name="Eleven Sports 4 (1080p)" tvg-logo="" group-title="欧洲/波兰",Eleven Sports 4 (1080p)
+#EXTINF:-1 tvg-id="Eleven.Sports.4.HD.pl" tvg-name="Eleven Sports 4 (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="ElevenSports4.pl@SD",Eleven Sports 4 (1080p)
 http://92.114.85.87:8002/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="EskaRockTV.pl@SD" tvg-name="Eska Rock TV (1080p)" tvg-logo="" group-title="欧洲/波兰",Eska Rock TV (1080p)
+#EXTINF:-1 tvg-id="Eska.Rock.TV.pl" tvg-name="Eska Rock TV (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="EskaRockTV.pl@SD",Eska Rock TV (1080p)
 http://92.114.85.87:8016/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="EskaTV.pl@SD" tvg-name="Eska TV (1080p)" tvg-logo="" group-title="欧洲/波兰",Eska TV (1080p)
+#EXTINF:-1 tvg-id="Eska.TV.HD.pl" tvg-name="Eska TV (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="EskaTV.pl@SD",Eska TV (1080p)
 http://92.114.85.87:8018/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="EskaTVExtra.pl@SD" tvg-name="Eska TV Extra (1080p)" tvg-logo="" group-title="欧洲/波兰",Eska TV Extra (1080p)
+#EXTINF:-1 tvg-id="Eska.TV.Extra.HD.pl" tvg-name="Eska TV Extra (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="EskaTVExtra.pl@SD",Eska TV Extra (1080p)
 http://92.114.85.87:8016/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusAction.pl@HD" tvg-name="FILMBOX+ Action (720p)" tvg-logo="" group-title="欧洲/波兰",FILMBOX+ Action (720p)
 http://92.114.85.87:8008/play/a007/index.m3u8
@@ -1313,84 +1315,82 @@ http://88.212.7.14/live/fb_premium_hungary/index.m3u8
 http://88.212.7.14/live/test_filmbox_plus_hun_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Magyar" tvg-name="FILMBOX+ One Magyar" tvg-logo="" group-title="欧洲/波兰",FILMBOX+ One Magyar
 http://88.212.7.14/live/filmbox_hungary/index.m3u8
-#EXTINF:-1 tvg-id="FokusTV.pl@SD" tvg-name="Fokus TV" tvg-logo="" group-title="欧洲/波兰",Fokus TV
+#EXTINF:-1 tvg-id="Fokus.TV.HD.pl" tvg-name="Fokus TV" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="FokusTV.pl@SD",Fokus TV
 http://92.114.85.87:8018/play/a00i/index.m3u8
-#EXTINF:-1 tvg-id="Fox.pl@SD" tvg-name="Fox (576i)" tvg-logo="" group-title="欧洲/波兰",Fox (576i)
-http://92.114.85.87:8015/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="HBO2.pl@SD" tvg-name="HBO 2 (1080p)" tvg-logo="" group-title="欧洲/波兰",HBO 2 (1080p)
+#EXTINF:-1 tvg-id="HBO2.HD.pl" tvg-name="HBO 2 (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="HBO2.pl@SD",HBO 2 (1080p)
 http://185.227.34.179:8080/hbo-2-hd/index.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
-#EXTINF:-1 tvg-id="HBO2.cz@SD" tvg-name="HBO 2" tvg-logo="" group-title="欧洲/波兰",HBO 2
+#EXTINF:-1 tvg-id="HBO2.cz" tvg-name="HBO 2" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="HBO2.cz@SD",HBO 2
 http://88.212.15.50/live/test_hbo2_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="HBO3.pl@SD" tvg-name="HBO 3 (1080p)" tvg-logo="" group-title="欧洲/波兰",HBO 3 (1080p)
+#EXTINF:-1 tvg-id="HBO3.HD.pl" tvg-name="HBO 3 (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="HBO3.pl@SD",HBO 3 (1080p)
 http://185.227.34.179:8080/hbo-3-hd/index.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
-#EXTINF:-1 tvg-id="HBO3.cz@SD" tvg-name="HBO 3" tvg-logo="" group-title="欧洲/波兰",HBO 3
+#EXTINF:-1 tvg-id="HBO3.cz" tvg-name="HBO 3" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="HBO3.cz@SD",HBO 3
 http://88.212.15.50/live/test_hbo3_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="NatGeoPeople.pl@SD" tvg-name="Nat Geo People (576i)" tvg-logo="" group-title="欧洲/波兰",Nat Geo People (576i)
+#EXTINF:-1 tvg-id="Nat.Geo.People.HD.pl" tvg-name="Nat Geo People (576i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="NatGeoPeople.pl@SD",Nat Geo People (576i)
 http://92.114.85.87:8016/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="NewsmaxPolska.pl@SD" tvg-name="Newsmax Polska (576i)" tvg-logo="" group-title="欧洲/波兰",Newsmax Polska (576i)
 http://92.114.85.87:8014/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="NowaTV.pl@SD" tvg-name="Nowa TV (1080p)" tvg-logo="" group-title="欧洲/波兰",Nowa TV (1080p)
+#EXTINF:-1 tvg-id="Nowa.TV.HD.pl" tvg-name="Nowa TV (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="NowaTV.pl@SD",Nowa TV (1080p)
 http://92.114.85.87:8001/play/a013/index.m3u8
-#EXTINF:-1 tvg-id="Polonia1.pl@SD" tvg-name="Polonia 1 (576i)" tvg-logo="" group-title="欧洲/波兰",Polonia 1 (576i)
+#EXTINF:-1 tvg-id="Polonia.1.HD.pl" tvg-name="Polonia 1 (576i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Polonia1.pl@SD",Polonia 1 (576i)
 http://92.114.85.87:8012/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="PolsatJimJam.pl@SD" tvg-name="Polsat JimJam (576i)" tvg-logo="" group-title="欧洲/波兰",Polsat JimJam (576i)
+#EXTINF:-1 tvg-id="Polsat.JimJam.pl" tvg-name="Polsat JimJam (576i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatJimJam.pl@SD",Polsat JimJam (576i)
 http://92.114.85.87:8014/play/a00d/index.m3u8
-#EXTINF:-1 tvg-id="PolsatMusic.pl@SD" tvg-name="Polsat Music (1080p)" tvg-logo="" group-title="欧洲/波兰",Polsat Music (1080p)
+#EXTINF:-1 tvg-id="Polsat.Music.HD.pl" tvg-name="Polsat Music (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatMusic.pl@SD",Polsat Music (1080p)
 http://92.114.85.87:8001/play/a00z/index.m3u8
-#EXTINF:-1 tvg-id="PolsatSeriale.pl@HD" tvg-name="Polsat Seriale HD (1080i)" tvg-logo="" group-title="欧洲/波兰",Polsat Seriale HD (1080i)
+#EXTINF:-1 tvg-id="Polsat.Seriale.HD.pl" tvg-name="Polsat Seriale HD (1080i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatSeriale.pl@HD",Polsat Seriale HD (1080i)
 http://92.114.85.87:8014/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatExplore.pl@SD" tvg-name="Polsat Viasat Explore" tvg-logo="" group-title="欧洲/波兰",Polsat Viasat Explore
+#EXTINF:-1 tvg-id="Polsat.Viasat.Explore.(pl).cz" tvg-name="Polsat Viasat Explore" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatViasatExplore.pl@SD",Polsat Viasat Explore
 http://92.114.85.87:8014/play/a00g/index.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" tvg-name="Polsat Viasat History (1080p)" tvg-logo="" group-title="欧洲/波兰",Polsat Viasat History (1080p)
+#EXTINF:-1 tvg-id="Polsat.Viasat.History.(pl).cz" tvg-name="Polsat Viasat History (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatViasatHistory.pl@SD",Polsat Viasat History (1080p)
 http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" tvg-name="Polsat Viasat History" tvg-logo="" group-title="欧洲/波兰",Polsat Viasat History
+#EXTINF:-1 tvg-id="Polsat.Viasat.History.(pl).cz" tvg-name="Polsat Viasat History" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatViasatHistory.pl@SD",Polsat Viasat History
 http://92.114.85.87:8015/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatNature.pl@SD" tvg-name="Polsat Viasat Nature" tvg-logo="" group-title="欧洲/波兰",Polsat Viasat Nature
+#EXTINF:-1 tvg-id="Polsat.Viasat.Nature.(pl).cz" tvg-name="Polsat Viasat Nature" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="PolsatViasatNature.pl@SD",Polsat Viasat Nature
 http://92.114.85.87:8016/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="QelloConcertsbyStingray.ca@Poland" tvg-name="Qello Concerts by Stingray (1080p)" tvg-logo="" group-title="欧洲/波兰",Qello Concerts by Stingray (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883052
-#EXTINF:-1 tvg-id="RomanceTV.pl@SD" tvg-name="Romance TV (576i)" tvg-logo="" group-title="欧洲/波兰",Romance TV (576i)
+#EXTINF:-1 tvg-id="Romance.TV.HD.pl" tvg-name="Romance TV (576i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="RomanceTV.pl@SD",Romance TV (576i)
 http://92.114.85.87:8009/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="SciFi.pl@SD" tvg-name="Sci Fi (1080p)" tvg-logo="" group-title="欧洲/波兰",Sci Fi (1080p)
+#EXTINF:-1 tvg-id="SCI.FI.HD.pl" tvg-name="Sci Fi (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="SciFi.pl@SD",Sci Fi (1080p)
 http://92.114.85.87:8003/play/a007/index.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
-#EXTINF:-1 tvg-id="SciFi.fr@HD" tvg-name="SciFi" tvg-logo="" group-title="欧洲/波兰",SciFi
+#EXTINF:-1 tvg-id="SCI.FI.HD.pl" tvg-name="SciFi" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="SciFi.fr@HD",SciFi
 http://192.99.186.30/stream/250/index.m3u8
 # 备份2 | 时延 9999ms | 画质 HD | 来源 iptv-org
 #EXTINF:-1 tvg-id="SciFi.rs@SD" tvg-name="Sci Fi (720p)" tvg-logo="" group-title="欧洲/波兰",Sci Fi (720p)
 https://webtvstream.bhtelecom.ba/sci-fi.m3u8
-#EXTINF:-1 tvg-id="StarsTV.pl@SD" tvg-name="Stars TV (1080p)" tvg-logo="" group-title="欧洲/波兰",Stars TV (1080p)
+#EXTINF:-1 tvg-id="STARS.TV.HD.pl" tvg-name="Stars TV (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="StarsTV.pl@SD",Stars TV (1080p)
 http://92.114.85.87:8001/play/a00o/index.m3u8
 #EXTINF:-1 tvg-id="StingrayGreatestHits.ca@Poland" tvg-name="Stingray Greatest Hits (1080p)" tvg-logo="" group-title="欧洲/波兰",Stingray Greatest Hits (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883053
 #EXTINF:-1 tvg-id="StingrayNaturescape.ca@Poland" tvg-name="Stingray Naturescape (1080p)" tvg-logo="" group-title="欧洲/波兰",Stingray Naturescape (1080p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883056
-#EXTINF:-1 tvg-id="StopklatkaTV.pl@SD" tvg-name="Stopklatka TV" tvg-logo="" group-title="欧洲/波兰",Stopklatka TV
+#EXTINF:-1 tvg-id="Stopklatka.TV.cz" tvg-name="Stopklatka TV" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="StopklatkaTV.pl@SD",Stopklatka TV
 http://92.114.85.87:8018/play/a004/index.m3u8
-#EXTINF:-1 tvg-id="SuperPolsat.pl@SD" tvg-name="Super Polsat" tvg-logo="" group-title="欧洲/波兰",Super Polsat
+#EXTINF:-1 tvg-id="Super.Polsat.HD.pl" tvg-name="Super Polsat" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="SuperPolsat.pl@SD",Super Polsat
 http://92.114.85.87:8004/play/a00c/index.m3u8
-#EXTINF:-1 tvg-id="TVOkazje.pl@SD" tvg-name="TV Okazje (576i)" tvg-logo="" group-title="欧洲/波兰",TV Okazje (576i)
+#EXTINF:-1 tvg-id="TV.Okazje.HD.pl" tvg-name="TV Okazje (576i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="TVOkazje.pl@SD",TV Okazje (576i)
 http://92.114.85.87:8014/play/a008/index.m3u8
-#EXTINF:-1 tvg-id="TVRepublika.pl@SD" tvg-name="TV Republika" tvg-logo="" group-title="欧洲/波兰",TV Republika
+#EXTINF:-1 tvg-id="TV.Republika.HD.pl" tvg-name="TV Republika" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="TVRepublika.pl@SD",TV Republika
 http://92.114.85.87:8018/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="TVTorun.pl@SD" tvg-name="TV Toruń (1080p) [Not 24/7]" tvg-logo="" group-title="欧洲/波兰",TV Toruń (1080p) [Not 24/7]
 http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TV4.hu@SD" tvg-name="TV4" tvg-logo="" group-title="欧洲/波兰",TV4
+#EXTINF:-1 tvg-id="TV4.(hu).cz" tvg-name="TV4" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="TV4.hu@SD",TV4
 http://88.212.7.14/live/test_tv_4_hun_atk_1200/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPInfo.pl@SD" tvg-name="TVP Info" tvg-logo="" group-title="欧洲/波兰",TVP Info
+#EXTINF:-1 tvg-id="TVP.Info.HD.pl" tvg-name="TVP Info" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="TVPInfo.pl@SD",TVP Info
 https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPRozrywka.pl@SD" tvg-name="TVP Rozrywka (576p)" tvg-logo="" group-title="欧洲/波兰",TVP Rozrywka (576p)
+#EXTINF:-1 tvg-id="TVP.Rozrywka.pl" tvg-name="TVP Rozrywka (576p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="TVPRozrywka.pl@SD",TVP Rozrywka (576p)
 http://185.227.34.179:8080/tvp-rozrywka/index.m3u8
-#EXTINF:-1 tvg-id="TVPWorld.pl" tvg-name="TVP World" tvg-logo="https://i.imgur.com/lB4MgRI.png" group-title="欧洲/波兰",TVP World
+#EXTINF:-1 tvg-id="TVP.World.HD.pl" tvg-name="TVP World" tvg-logo="https://i.imgur.com/lB4MgRI.png" group-title="欧洲/波兰" tvg-id-orig="TVPWorld.pl",TVP World
 http://78.129.193.20/tsstreamer/TVP_SD.ts
-#EXTINF:-1 tvg-id="TVP1.pl@SD" tvg-name="TVP1" tvg-logo="" group-title="欧洲/波兰",TVP1
+#EXTINF:-1 tvg-id="TVP.1.HD.pl" tvg-name="TVP1" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="TVP1.pl@SD",TVP1
 http://92.114.85.87:8009/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="TeletoonPlus.pl@HD" tvg-name="Teletoon+ HD (1080i)" tvg-logo="" group-title="欧洲/波兰",Teletoon+ HD (1080i)
 http://92.114.85.87:8009/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="VOXMusicTV.pl@SD" tvg-name="VOX Music TV (1080p)" tvg-logo="" group-title="欧洲/波兰",VOX Music TV (1080p)
+#EXTINF:-1 tvg-id="VOX.Music.TV.pl" tvg-name="VOX Music TV (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="VOXMusicTV.pl@SD",VOX Music TV (1080p)
 http://92.114.85.87:8016/play/a00a/index.m3u8
 
 # ==================== 欧洲/波黑 ====================
@@ -1412,7 +1412,7 @@ https://stream.rtvze.ba/live/123/123.m3u8
 http://41.180.140.146:4200/bysid/2106
 #EXTINF:-1 tvg-id="RTEjr.ie@SD" tvg-name="RTEjr [Not 24/7]" tvg-logo="" group-title="欧洲/爱尔兰",RTEjr [Not 24/7]
 http://41.180.140.146:4200/bysid/2117
-#EXTINF:-1 tvg-id="SkyNews.ie@SD" tvg-name="Sky News" tvg-logo="" group-title="欧洲/爱尔兰",Sky News
+#EXTINF:-1 tvg-id="Sky.News.HD.uk" tvg-name="Sky News" tvg-logo="" group-title="欧洲/爱尔兰" tvg-id-orig="SkyNews.ie@SD",Sky News
 https://dash4.antik.sk/live/test_skynews/playlist.m3u8
 
 # ==================== 欧洲/爱沙尼亚 ====================
@@ -1420,7 +1420,7 @@ https://dash4.antik.sk/live/test_skynews/playlist.m3u8
 http://90.183.52.46:4000/play/a065/index.m3u8
 
 # ==================== 欧洲/瑞典 ====================
-#EXTINF:-1 tvg-id="GBNews.uk@SD" tvg-name="GB News (1080p)" tvg-logo="" group-title="欧洲/瑞典",GB News (1080p)
+#EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News (1080p)" tvg-logo="" group-title="欧洲/瑞典" tvg-id-orig="GBNews.uk@SD",GB News (1080p)
 https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8
 #EXTINF:-1 tvg-id="MissionAsia.au@SD" tvg-name="Mission Asia (1080p)" tvg-logo="" group-title="欧洲/瑞典",Mission Asia (1080p)
 https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8
@@ -1449,7 +1449,7 @@ http://46.53.200.153:7777/play/svetloetv/index.m3u8
 http://46.53.200.153:7777/play/a00h/index.m3u8
 
 # ==================== 欧洲/罗马尼亚 ====================
-#EXTINF:-1 tvg-id="Bollywood.ru@HD" tvg-name="Bollywood HD (576p)" tvg-logo="" group-title="欧洲/罗马尼亚",Bollywood HD (576p)
+#EXTINF:-1 tvg-id="Bollywood.HD.pl" tvg-name="Bollywood HD (576p)" tvg-logo="" group-title="欧洲/罗马尼亚" tvg-id-orig="Bollywood.ru@HD",Bollywood HD (576p)
 http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 tvg-id="TVSE.ro@SD" tvg-name="Exploris (576p) [Not 24/7]" tvg-logo="" group-title="欧洲/罗马尼亚",Exploris (576p) [Not 24/7]
 http://89.38.8.130:39419
@@ -1486,26 +1486,26 @@ http://88.212.7.14/live/test_amc_25p/playlist.m3u8
 http://88.212.7.14/live/amc_hun/index.m3u8
 #EXTINF:-1 tvg-id="ATNBanglaUK.uk@SD" tvg-name="ATN Bangla UK (576p)" tvg-logo="" group-title="欧洲/英国",ATN Bangla UK (576p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="AkaalChannel.uk@SD" tvg-name="Akaal Channel (396p) [Geo-blocked]" tvg-logo="" group-title="欧洲/英国",Akaal Channel (396p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Akaal.Channel.uk" tvg-name="Akaal Channel (396p) [Geo-blocked]" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="AkaalChannel.uk@SD",Akaal Channel (396p) [Geo-blocked]
 https://cdn-globecast.akamaized.net/live/eds/akaal_tv/hls1_smart_akaal/akaal_tv.m3u8
-#EXTINF:-1 tvg-id="AlJazeera.qa@Arabic" tvg-name="Al Jazeera" tvg-logo="" group-title="欧洲/英国",Al Jazeera
+#EXTINF:-1 tvg-id="Al.Jazeera.HD.pl" tvg-name="Al Jazeera" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="AlJazeera.qa@Arabic",Al Jazeera
 https://dash4.antik.sk/live/test_aljazeera/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCEarth.uk@Czechia" tvg-name="BBC Earth Czechia" tvg-logo="" group-title="欧洲/英国",BBC Earth Czechia
+#EXTINF:-1 tvg-id="BBC.Earth.HD.gr" tvg-name="BBC Earth Czechia" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BBCEarth.uk@Czechia",BBC Earth Czechia
 http://88.212.7.14/live/test_bbc_eartch_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCEarth.uk@Hungary" tvg-name="BBC Earth Hungary" tvg-logo="" group-title="欧洲/英国",BBC Earth Hungary
+#EXTINF:-1 tvg-id="BBC.Earth.HD.gr" tvg-name="BBC Earth Hungary" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BBCEarth.uk@Hungary",BBC Earth Hungary
 http://88.212.7.14/live/bbce_hun/index.m3u8
-#EXTINF:-1 tvg-id="BBCFirst.uk@Turkiye" tvg-name="BBC First Turkiye" tvg-logo="" group-title="欧洲/英国",BBC First Turkiye
+#EXTINF:-1 tvg-id="BBC.First.HD.pl" tvg-name="BBC First Turkiye" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BBCFirst.uk@Turkiye",BBC First Turkiye
 http://88.212.7.14/live/bbc_first/index.m3u8
-#EXTINF:-1 tvg-id="BBCFour.uk@UK" tvg-name="BBC Four (720p) [Not 24/7]" tvg-logo="" group-title="欧洲/英国",BBC Four (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BBC.Four.HD.uk" tvg-name="BBC Four (720p) [Not 24/7]" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BBCFour.uk@UK",BBC Four (720p) [Not 24/7]
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_four/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCNews.uk@NorthAmerica" tvg-name="BBC News North America (1080p)" tvg-logo="" group-title="欧洲/英国",BBC News North America (1080p)
+#EXTINF:-1 tvg-id="BBC.NEWS.HD.uk" tvg-name="BBC News North America (1080p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BBCNews.uk@NorthAmerica",BBC News North America (1080p)
 http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="BBCOne.uk@London" tvg-name="BBC One (720p)" tvg-logo="" group-title="欧洲/英国",BBC One (720p)
+#EXTINF:-1 tvg-id="BBC.One.ch" tvg-name="BBC One (720p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BBCOne.uk@London",BBC One (720p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/bbc_one/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" tvg-name="BabyTV Latin America (720p)" tvg-logo="" group-title="欧洲/英国",BabyTV Latin America (720p)
+#EXTINF:-1 tvg-id="BabyTV.uk" tvg-name="BabyTV Latin America (720p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BabyTV.uk@LatinAmerica",BabyTV Latin America (720p)
 http://138.121.15.230:9002/BABY-TV/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="BabyTV.uk@LatinAmerica" tvg-name="BabyTV Latin America (480p)" tvg-logo="" group-title="欧洲/英国",BabyTV Latin America (480p)
+#EXTINF:-1 tvg-id="BabyTV.uk" tvg-name="BabyTV Latin America (480p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="BabyTV.uk@LatinAmerica",BabyTV Latin America (480p)
 http://181.78.12.119:16123/play/ch01/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@Hungary" tvg-name="Cartoon Network CEE" tvg-logo="" group-title="欧洲/英国",Cartoon Network CEE
 http://193.33.39.108:9007/play/a00l
@@ -1527,9 +1527,9 @@ http://88.212.7.14/live/test_boomerang_tizen/playlist.m3u8
 http://92.114.85.87:8007/play/a008
 #EXTINF:-1 tvg-id="CrimePlusInvestigationCEE.uk@SD" tvg-name="Crime + Investigation CEE" tvg-logo="" group-title="欧洲/英国",Crime + Investigation CEE
 http://88.212.7.14/live/test_cai_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="DAZN3.uk@Portugal" tvg-name="DAZN 3 Portugal (720p)" tvg-logo="" group-title="欧洲/英国",DAZN 3 Portugal (720p)
+#EXTINF:-1 tvg-id="DAZN.3.es" tvg-name="DAZN 3 Portugal (720p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="DAZN3.uk@Portugal",DAZN 3 Portugal (720p)
 http://23.237.104.106:8080/DAZN_3/index.m3u8
-#EXTINF:-1 tvg-id="Eurochannel.uk@SD" tvg-name="Eurochannel" tvg-logo="" group-title="欧洲/英国",Eurochannel
+#EXTINF:-1 tvg-id="Eurochannel.cz" tvg-name="Eurochannel" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="Eurochannel.uk@SD",Eurochannel
 http://45.186.240.164:9000/stream/54/index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" tvg-name="FIFA+ United States (720p)" tvg-logo="" group-title="欧洲/英国",FIFA+ United States (720p)
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
@@ -1537,21 +1537,21 @@ https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGlobal.uk@SD" tvg-name="MTV Global" tvg-logo="" group-title="欧洲/英国",MTV Global
 http://85.14.32.26:8800/udp/239.100.10.67:5000
-#EXTINF:-1 tvg-id="MUTV.uk@SD" tvg-name="MUTV (720p)" tvg-logo="" group-title="欧洲/英国",MUTV (720p)
+#EXTINF:-1 tvg-id="MUTV.HD.uk" tvg-name="MUTV (720p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="MUTV.uk@SD",MUTV (720p)
 https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids (576p)" tvg-logo="" group-title="欧洲/英国",Moonbug Kids (576p)
 https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
-#EXTINF:-1 tvg-id="PBSAmerica.uk@SD" tvg-name="PBS America (576p)" tvg-logo="" group-title="欧洲/英国",PBS America (576p)
+#EXTINF:-1 tvg-id="PBS.America.uk" tvg-name="PBS America (576p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="PBSAmerica.uk@SD",PBS America (576p)
 http://185.19.191.2:8090/PBS/index.m3u8
 #EXTINF:-1 tvg-id="SangatTV.uk@SD" tvg-name="Sangat TV (576p)" tvg-logo="" group-title="欧洲/英国",Sangat TV (576p)
 https://mumt06.tangotv.in/qYyB8fXVSANGATTV/index.m3u8
-#EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Czechia" tvg-name="Viasat Epic Drama Czechia" tvg-logo="" group-title="欧洲/英国",Viasat Epic Drama Czechia
+#EXTINF:-1 tvg-id="Viasat.EpicDrama.gr" tvg-name="Viasat Epic Drama Czechia" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="ViasatEpicDrama.uk@Czechia",Viasat Epic Drama Czechia
 http://88.212.7.14/live/test_epic_drama_atk_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Poland" tvg-name="Viasat Epic Drama Poland (1080p)" tvg-logo="" group-title="欧洲/英国",Viasat Epic Drama Poland (1080p)
+#EXTINF:-1 tvg-id="Viasat.EpicDrama.gr" tvg-name="Viasat Epic Drama Poland (1080p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="ViasatEpicDrama.uk@Poland",Viasat Epic Drama Poland (1080p)
 http://92.114.85.87:8001/play/a00x/index.m3u8
-#EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Ukraine" tvg-name="Viasat Epic Drama Ukraine (576p)" tvg-logo="" group-title="欧洲/英国",Viasat Epic Drama Ukraine (576p)
+#EXTINF:-1 tvg-id="Viasat.EpicDrama.gr" tvg-name="Viasat Epic Drama Ukraine (576p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="ViasatEpicDrama.uk@Ukraine",Viasat Epic Drama Ukraine (576p)
 http://195.189.60.253/118/index.m3u8
-#EXTINF:-1 tvg-id="talkSPORT.uk@SD" tvg-name="talkSPORT (720p)" tvg-logo="" group-title="欧洲/英国",talkSPORT (720p)
+#EXTINF:-1 tvg-id="talkSPORT.uk" tvg-name="talkSPORT (720p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="talkSPORT.uk@SD",talkSPORT (720p)
 https://tvsen6.aynaott.com/talkSPORT/index.m3u8
 
 # ==================== 欧洲/荷兰 ====================
@@ -1583,13 +1583,13 @@ http://213.91.179.28:8000/play/a066
 http://213.91.179.28:8000/play/a06i
 #EXTINF:-1 tvg-id="FILMBOXPlusOne.pl@Czechia" tvg-name="FILMBOX+ One Czechia" tvg-logo="" group-title="欧洲/荷兰",FILMBOX+ One Czechia
 http://88.212.15.50/live/test_filmbox/playlist.m3u8
-#EXTINF:-1 tvg-id="FightBox.nl@SD" tvg-name="FightBox (720p)" tvg-logo="" group-title="欧洲/荷兰",FightBox (720p)
+#EXTINF:-1 tvg-id="FightBox.HD.pl" tvg-name="FightBox (720p)" tvg-logo="" group-title="欧洲/荷兰" tvg-id-orig="FightBox.nl@SD",FightBox (720p)
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
-#EXTINF:-1 tvg-id="FightBox.nl@Poland" tvg-name="FightBox Poland (576i)" tvg-logo="" group-title="欧洲/荷兰",FightBox Poland (576i)
+#EXTINF:-1 tvg-id="FightBox.HD.pl" tvg-name="FightBox Poland (576i)" tvg-logo="" group-title="欧洲/荷兰" tvg-id-orig="FightBox.nl@Poland",FightBox Poland (576i)
 http://92.114.85.87:8003/play/a00b/index.m3u8
-#EXTINF:-1 tvg-id="FunBoxUHD.nl@SD" tvg-name="FunBox UHD (720p)" tvg-logo="" group-title="欧洲/荷兰",FunBox UHD (720p)
+#EXTINF:-1 tvg-id="FunBox.UHD.pl" tvg-name="FunBox UHD (720p)" tvg-logo="" group-title="欧洲/荷兰" tvg-id-orig="FunBoxUHD.nl@SD",FunBox UHD (720p)
 https://webtvstream.bhtelecom.ba/funbox.m3u8
-#EXTINF:-1 tvg-id="Gametoon.nl@SD" tvg-name="Gametoon (720p)" tvg-logo="" group-title="欧洲/荷兰",Gametoon (720p)
+#EXTINF:-1 tvg-id="Gametoon.HD.pl" tvg-name="Gametoon (720p)" tvg-logo="" group-title="欧洲/荷兰" tvg-id-orig="Gametoon.nl@SD",Gametoon (720p)
 https://webtvstream.bhtelecom.ba/gametoon.m3u8
 #EXTINF:-1 tvg-id="Kinoseriya.ru@SD" tvg-name="Kinoseriya (576p)" tvg-logo="" group-title="欧洲/荷兰",Kinoseriya (576p)
 https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
@@ -1598,7 +1598,7 @@ http://213.91.179.28:8000/play/a03q
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="Nostalgia.ru@SD" tvg-name="Nostalgia (576p)" tvg-logo="" group-title="欧洲/荷兰",Nostalgia (576p)
 http://176.118.197.101/Nostalgiya/index.m3u8
-#EXTINF:-1 tvg-id="StarChannel.bg@SD" tvg-name="Star Channel" tvg-logo="" group-title="欧洲/荷兰",Star Channel
+#EXTINF:-1 tvg-id="STAR.Channel.nl" tvg-name="Star Channel" tvg-logo="" group-title="欧洲/荷兰" tvg-id-orig="StarChannel.bg@SD",Star Channel
 http://213.91.179.28:8000/play/a0c9
 
 # ==================== 欧洲/葡萄牙 ====================
@@ -1607,22 +1607,22 @@ http://50.7.120.34:8080/AXN_BLACK/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel (576i)" tvg-logo="" group-title="欧洲/葡萄牙",Disney Channel (576i)
 http://87.120.179.187:8000/play/a010
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙",Disney Channel
+#EXTINF:-1 tvg-id="Disney.Channel.HD.pl" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙" tvg-id-orig="DisneyChannel.bg@SD",Disney Channel
 http://213.91.179.28:8000/play/a059
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DisneyChannel.cz@SD" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙",Disney Channel
+#EXTINF:-1 tvg-id="Disney.Channel.cz" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙" tvg-id-orig="DisneyChannel.cz@SD",Disney Channel
 http://88.212.15.50/live/test_disney/playlist.m3u8
 # 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DisneyChannel.hu@SD" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙",Disney Channel
+#EXTINF:-1 tvg-id="Disney.Channel.HD.pl" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙" tvg-id-orig="DisneyChannel.hu@SD",Disney Channel
 http://88.212.7.14/live/disney_channel_hun/index.m3u8
 # 备份4 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="DisneyChannel.hu@SD" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙",Disney Channel
+#EXTINF:-1 tvg-id="Disney.Channel.HD.pl" tvg-name="Disney Channel" tvg-logo="" group-title="欧洲/葡萄牙" tvg-id-orig="DisneyChannel.hu@SD",Disney Channel
 http://193.33.39.108:9019/play/a00n
 #EXTINF:-1 tvg-id="KuriakosMusic.pt@SD" tvg-name="Kuriakos Music (1080p)" tvg-logo="" group-title="欧洲/葡萄牙",Kuriakos Music (1080p)
 http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
 
 # ==================== 欧洲/西班牙 ====================
-#EXTINF:-1 tvg-id="3CatInfo.es@SD" tvg-name="3CatInfo (1080p)" tvg-logo="" group-title="欧洲/西班牙",3CatInfo (1080p)
+#EXTINF:-1 tvg-id="3CatInfo.es" tvg-name="3CatInfo (1080p)" tvg-logo="" group-title="欧洲/西班牙" tvg-id-orig="3CatInfo.es@SD",3CatInfo (1080p)
 https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 #EXTINF:-1 tvg-id="AXNCEE.es@Hungary" tvg-name="AXN CEE" tvg-logo="" group-title="欧洲/西班牙",AXN CEE
 http://88.212.15.50/live/axn_hun/index.m3u8
@@ -1634,18 +1634,18 @@ http://217.182.77.27/live/alcarriatv-livestream.m3u8
 https://dash4.antik.sk/live/test_cgtn_esp_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="24Horas.es@SD" tvg-name="Canal 24 Horas (720p)" tvg-logo="" group-title="欧洲/西班牙",Canal 24 Horas (720p)
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
-#EXTINF:-1 tvg-id="Nova.bg@SD" tvg-name="Nova" tvg-logo="" group-title="欧洲/西班牙",Nova
+#EXTINF:-1 tvg-id="Nova.cz" tvg-name="Nova" tvg-logo="" group-title="欧洲/西班牙" tvg-id-orig="Nova.bg@SD",Nova
 http://213.91.179.28:8000/play/a03l
 #EXTINF:-1 tvg-id="RealMadridTVEnglish.es@SD" tvg-name="Real Madrid TV English" tvg-logo="" group-title="欧洲/西班牙",Real Madrid TV English
 http://88.212.15.50/live/real_madrid_tv/index.m3u8
 #EXTINF:-1 tvg-id="RadioBocairentTV.es@SD" tvg-name="Ràdio Bocairent TV (1080p) [Not 24/7]" tvg-logo="" group-title="欧洲/西班牙",Ràdio Bocairent TV (1080p) [Not 24/7]
 http://185.81.77.4/BocairentTV/index.m3u8
-#EXTINF:-1 tvg-id="SundanceTV.pl@SD" tvg-name="Sundance TV (576i)" tvg-logo="" group-title="欧洲/西班牙",Sundance TV (576i)
+#EXTINF:-1 tvg-id="Sundance.TV.HD.pl" tvg-name="Sundance TV (576i)" tvg-logo="" group-title="欧洲/西班牙" tvg-id-orig="SundanceTV.pl@SD",Sundance TV (576i)
 http://92.114.85.87:8003/play/a004/index.m3u8
-#EXTINF:-1 tvg-id="TV3.ru@SD" tvg-name="TV-3 (576p)" tvg-logo="" group-title="欧洲/西班牙",TV-3 (576p)
+#EXTINF:-1 tvg-id="TV3+.dk" tvg-name="TV-3 (576p)" tvg-logo="" group-title="欧洲/西班牙" tvg-id-orig="TV3.ru@SD",TV-3 (576p)
 http://31.148.5.241/kanal_15/index.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="TV3.ru@SD" tvg-name="TV-3 (576p)" tvg-logo="" group-title="欧洲/西班牙",TV-3 (576p)
+#EXTINF:-1 tvg-id="TV3+.dk" tvg-name="TV-3 (576p)" tvg-logo="" group-title="欧洲/西班牙" tvg-id-orig="TV3.ru@SD",TV-3 (576p)
 http://176.118.197.101/TB3/index.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD" tvg-name="TVE Internacional America" tvg-logo="" group-title="欧洲/西班牙",TVE Internacional America
 http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a
