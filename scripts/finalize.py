@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """按验证结果生成最终 4 份 m3u：删除失效链路、按时延排序、嵌入 EPG。"""
-import json, os, gzip, datetime, collections
+import json, os, gzip, datetime, collections, re
 
 WORK = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(WORK)
@@ -24,9 +24,42 @@ EPG = {
 TITLE = {"cn": "中国电视直播", "asia": "亚洲电视直播", "eu": "欧洲电视直播", "us": "北美电视直播"}
 QLABEL = {4: "4K", 3: "1080p/FHD", 2: "HD", 1: "SD"}
 
+# EPG id 映射：把 m3u 的 tvg-id 改写为 EPG 的 channel id，提升播放器自动匹配率
+COUNTRY_SUFFIX = (r"(us2|us|uk|ca2|ca|mx1|mx|de|fr|es|it|nl|pl|se|no|fi|dk|cz|gr|ch|at|"
+                  r"hk|jp|kr|sg|in|tr|th|id|vn|my|au|br|ru|ua)$")
+QUALITY_TOKEN = r"(hd|sd|fhd|uhd|4k|hevc)"
+
+EPG_MAP = {}
+try:
+    _map_path = os.path.join(WORK, "epg_id_map.json")
+    if os.path.exists(_map_path):
+        EPG_MAP = json.load(open(_map_path, encoding="utf-8"))
+except Exception as e:
+    print(f"[final] cannot load epg_id_map.json: {e!r}")
+
 
 def esc(s):
     return str(s or "").replace('"', "'").replace("\n", " ")
+
+
+def lookup_epg_id(region, candidates):
+    """按候选名(tvg-id/频道名)查 EPG channel id，命中返回 id，否则 None。"""
+    table = EPG_MAP.get(region)
+    if not table:
+        return None
+    for raw in candidates:
+        if not raw:
+            continue
+        s = str(raw).strip().lower()
+        s = re.sub(r"@[a-z0-9_.\-]+$", "", s)
+        base = re.sub(r"[^a-z0-9]+", "", s)
+        keys = [base, re.sub(QUALITY_TOKEN, "", base)]
+        c = re.sub(r"[^a-z0-9]+", "", re.sub(COUNTRY_SUFFIX, "", s))
+        keys += [c, re.sub(QUALITY_TOKEN, "", c)]
+        for k in keys:
+            if k and k in table:
+                return table[k]
+    return None
 
 
 def load_validation():
@@ -123,6 +156,7 @@ def main():
             f.write(f"# EPG: {EPG[region]}\n")
             f.write(f"# 统计: {len(items)} 个频道 / {nsrc} 条有效线路\n\n")
             last_group = None
+            mapped = 0
             for ch, srcs in items:
                 if ch["group"] != last_group:
                     f.write(f"\n# ==================== {ch['group']} ====================\n")
@@ -132,13 +166,23 @@ def main():
                         f.write(f"# 备份{i} | 时延 {s['latency']}ms | 画质 {QLABEL.get(s['quality'], 'SD')} | 来源 {s['origin']}\n")
                     a = s.get("attrs", {})
                     name = s.get("name") or ch["name"]
-                    tvg_id = a.get("tvg-id") or ch["name"]
+                    orig_id = a.get("tvg-id") or ch["name"]
+                    # 用 tvg-id、频道名、源名联合查询 EPG channel id
+                    epg_id = lookup_epg_id(region, [orig_id, name, s.get("name"), ch["name"]])
+                    tvg_id = epg_id or orig_id
+                    if epg_id:
+                        mapped += 1
                     tvg_logo = a.get("tvg-logo", "")
+                    extra = f' tvg-id-orig="{esc(orig_id)}"' if epg_id and orig_id != epg_id else ""
                     f.write(f'#EXTINF:-1 tvg-id="{esc(tvg_id)}" tvg-name="{esc(name)}" '
-                            f'tvg-logo="{esc(tvg_logo)}" group-title="{esc(ch["group"])}",{name}\n')
+                            f'tvg-logo="{esc(tvg_logo)}" group-title="{esc(ch["group"])}"{extra},{name}\n')
                     f.write(s["url"] + "\n")
-        stats[region] = {"channels": len(items), "sources": nsrc, "file": path}
-        print(f"  {region}: {len(items)} channels / {nsrc} sources -> {path}")
+        stats[region] = {"channels": len(items), "sources": nsrc,
+                         "epg_mapped": mapped,
+                         "epg_mapped_pct": round(100 * mapped / nsrc, 1) if nsrc else 0,
+                         "file": path}
+        print(f"  {region}: {len(items)} channels / {nsrc} sources -> {path} "
+              f"(EPG mapped {mapped}/{nsrc} = {stats[region]['epg_mapped_pct']}%)")
 
     stats["_meta"] = {
         "generated": now,
