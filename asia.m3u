@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz"
 # 亚洲电视直播 — asia.m3u
-# 生成时间: 2026-11-24 10:38:47
+# 生成时间: 2026-11-25 06:33:14
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
@@ -166,6 +166,8 @@ https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 https://stream.ottlive.co.in/livetimetv/index.m3u8
 #EXTINF:-1 tvg-id="LivingIndiaNews.in@SD" tvg-name="Living India News (1080p)" tvg-logo="" group-title="亚洲/印度",Living India News (1080p)
 https://stream.ottlive.co.in/livingindia/index.m3u8
+#EXTINF:-1 tvg-id="MTV.jp@SD" tvg-name="MTV" tvg-logo="" group-title="亚洲/印度",MTV
+http://103.255.250.188:5002/cs18.m3u8?channel=zhongying&gid=cs18&token=guoziyun
 #EXTINF:-1 tvg-id="MakkalTV.in@SD" tvg-name="Makkal TV (576p)" tvg-logo="" group-title="亚洲/印度",Makkal TV (576p)
 https://mumbai-edge.smartplaytv.in/MakkalTV/index.m3u8
 #EXTINF:-1 tvg-id="ManoranjanGrand.in@SD" tvg-name="Manoranjan Grand (576p)" tvg-logo="" group-title="亚洲/印度",Manoranjan Grand (576p)
@@ -573,8 +575,6 @@ http://168.196.127.137:6001/play/a03k/index.m3u8
 http://103.255.250.188:5002/cs25.m3u8?channel=zhongying&gid=cs25&token=guoziyun
 #EXTINF:-1 tvg-id="DisneyChannel.jp@SD" tvg-name="Disney Channel" tvg-logo="" group-title="亚洲/日本",Disney Channel
 http://103.255.250.188:5002/bs24.m3u8?channel=zhongying&gid=bs24&token=guoziyun
-#EXTINF:-1 tvg-id="MTV.jp@SD" tvg-name="MTV" tvg-logo="" group-title="亚洲/日本",MTV
-http://103.255.250.188:5002/cs18.m3u8?channel=zhongying&gid=cs18&token=guoziyun
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp@HD" tvg-name="NHK World-Japan HD (720p)" tvg-logo="" group-title="亚洲/日本",NHK World-Japan HD (720p)
 http://170.83.16.50/NHK_WORLD/index.m3u8
 
