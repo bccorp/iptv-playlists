@@ -13,6 +13,9 @@ OUT = {
 EPG_BASE = "https://epgshare01.online/epgshare01/"
 EPG = {
     "cn": ("https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,"
+           "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz,"
+           "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_hk.xml.gz,"
+           "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz,"
            "https://cdn.jsdelivr.net/gh/CCSH/IPTV@main/e.xml.gz," + EPG_BASE + "epg_ripper_HK1.xml.gz"),
     "asia": ",".join(EPG_BASE + f"epg_ripper_{x}.xml.gz" for x in
                      ["JP1", "KR1", "HK1", "SG1", "IN1", "TR1", "TH1", "ID1", "PH1", "VN1", "MY1"]),
@@ -38,9 +41,45 @@ try:
 except Exception as e:
     print(f"[final] cannot load epg_id_map.json: {e!r}")
 
+# 按 EPG display-name 反查 channel id（112114 中文 id + epg.pw 数字 id）
+EPG_NAME_MAP = {}
+try:
+    _name_map_path = os.path.join(WORK, "epg_name_map.json")
+    if os.path.exists(_name_map_path):
+        EPG_NAME_MAP = json.load(open(_name_map_path, encoding="utf-8"))
+except Exception as e:
+    print(f"[final] cannot load epg_name_map.json: {e!r}")
+
+TRAD_TO_SIMP = {"頻": "频", "華": "华", "劇": "剧", "視": "视", "東": "东", "衛": "卫",
+                "體": "体", "國": "国", "興": "兴", "灣": "湾", "臺": "台"}
+
 
 def esc(s):
     return str(s or "").replace('"', "'").replace("\n", " ")
+
+
+def norm_epg_name(s):
+    """名称归一化：小写、去台标后缀、保留中英文数字、繁体转简体、CCTV5+ 保留加号语义。"""
+    s = str(s or "").strip().lower()
+    s = re.sub(r"@[a-z0-9_.\-]+$", "", s)
+    s = s.replace("+", "plus")
+    s = re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", s)
+    s = re.sub(r"(hd|sd|fhd|uhd|4k)$", "", s)
+    for k, v in TRAD_TO_SIMP.items():
+        s = s.replace(k, v)
+    return s
+
+
+def lookup_epg_name(region, candidates):
+    """按频道显示名反查 EPG channel id（用于 tvg-id 别名表未命中的长尾频道）。"""
+    table = EPG_NAME_MAP.get(region)
+    if not table:
+        return None
+    for raw in candidates:
+        k = norm_epg_name(raw)
+        if k and k in table:
+            return table[k]
+    return None
 
 
 def lookup_epg_id(region, candidates):
@@ -168,8 +207,10 @@ def main():
                     a = s.get("attrs", {})
                     name = s.get("name") or ch["name"]
                     orig_id = a.get("tvg-id") or ch["name"]
-                    # 用 tvg-id、频道名、源名联合查询 EPG channel id
+                    # 先用 tvg-id 别名表查询；未命中则按频道显示名反查 EPG channel id
                     epg_id = lookup_epg_id(region, [orig_id, name, s.get("name"), ch["name"]])
+                    if not epg_id:
+                        epg_id = lookup_epg_name(region, [name, s.get("name"), ch["name"], orig_id])
                     tvg_id = epg_id or orig_id
                     if epg_id:
                         mapped += 1

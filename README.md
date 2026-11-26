@@ -9,7 +9,7 @@
 - **两级树状目录**：国内按「省 / 市」，国外按「洲 / 国家」，通过 `group-title` 中的 `/` 分隔
 - **多源备份与排序**：同一频道多个线路保留为备份；具备 4K / 1080p / FHD 标签的源优先
 - **链路验证**：连接超时 5 秒判为失效；HLS 要求能取到 playlist 和首个视频分片，DASH 要求能取到 MPD；失效线路剔除，剩余线路按时延重排
-- **EPG 嵌入**：在 `#EXTM3U` 中写入 `x-tvg-url`，国内使用 CCSH 中文 EPG，境外使用 epgshare01 分区域 XMLTV（每日更新）
+- **EPG 嵌入**：在 `#EXTM3U` 中写入 `x-tvg-url`；国内使用 112114 + epg.pw 大陆/港澳台 XMLTV，并按频道名把 `tvg-id` 预对齐到 EPG channel id（约 65% 线路可自动匹配），境外使用 epgshare01 分区域 XMLTV
 
 ## 文件说明
 
@@ -42,13 +42,26 @@ workflow 在 **UTC 09:00（北京时间 17:00）** 每天运行一次；推送 `
 仓库为公开仓库，播放器直接填 raw 链接即可（把 `<owner>` / `<repo>` 替换为实际值）：
 
 ```
-https://raw.githubusercontent.com/bccorp/iptv-playlists/main/cn.m3u
-https://raw.githubusercontent.com/bccorp/iptv-playlists/main/asia.m3u
-https://raw.githubusercontent.com/bccorp/iptv-playlists/main/eu.m3u
-https://raw.githubusercontent.com/bccorp/iptv-playlists/main/us.m3u
+https://raw.githubusercontent.com/<owner>/<repo>/main/cn.m3u
+https://raw.githubusercontent.com/<owner>/<repo>/main/asia.m3u
+https://raw.githubusercontent.com/<owner>/<repo>/main/eu.m3u
+https://raw.githubusercontent.com/<owner>/<repo>/main/us.m3u
 ```
 
 若播放器缓存，可在末尾追加 `?t=20260101` 之类的参数强制刷新。
+
+## xTeVe 自动匹配
+
+在 xTeVe 的 XMLTV 菜单添加以下源（与 m3u 内嵌的 `x-tvg-url` 一致），未分配频道会自动按 `tvg-id == channel id` 匹配：
+
+```
+https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz
+https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz
+https://gitee.com/taksssss/tv/raw/main/epg/epgpw_hk.xml.gz
+https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz
+```
+
+已有 active 映射不会被覆盖；如需让旧频道重新匹配，在 Mapping → Bulk Edit 中取消激活并清空分配，再触发更新重建。`tvg-id-orig` 保留了原始 id 便于核对。
 
 ## 说明
 
