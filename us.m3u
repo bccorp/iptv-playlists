@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 # 北美电视直播 — us.m3u
-# 生成时间: 2026-11-26 01:07:17
+# 生成时间: 2026-11-26 18:44:57
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
@@ -45,6 +45,11 @@ http://192.99.186.30/stream/192/index.m3u8
 http://45.166.93.156:9999/play/a0j2/index.m3u8
 #EXTINF:-1 tvg-id="Canal100Chinique.gt@SD" tvg-name="Canal 100 Chinique (1080p)" tvg-logo="" group-title="北美洲/危地马拉",Canal 100 Chinique (1080p)
 https://183.giatvcdn.com/giatv/giatv-chinique100tvenvivo/chinique100tvenvivo/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal11.cr@SD" tvg-name="Canal 11 (720p)" tvg-logo="" group-title="北美洲/危地马拉",Canal 11 (720p)
+http://45.5.117.188:8000/play/a02w/index.m3u8
+# 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Canal11.gt@SD" tvg-name="Canal 11 (720p)" tvg-logo="" group-title="北美洲/危地马拉",Canal 11 (720p)
+http://179.60.224.196:8000/play/a0dv/index.m3u8
 #EXTINF:-1 tvg-id="Canal13.gt@SD" tvg-name="Canal 13 (720p)" tvg-logo="" group-title="北美洲/危地马拉",Canal 13 (720p)
 http://168.196.127.137:6001/play/a064/index.m3u8
 # 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
@@ -286,11 +291,6 @@ http://181.78.121.15:8000/play/a001/index.m3u8
 # ==================== 北美洲/洪都拉斯 ====================
 #EXTINF:-1 tvg-id="CCIChannel.hn@SD" tvg-name="CCI Channel (1080p)" tvg-logo="" group-title="北美洲/洪都拉斯",CCI Channel (1080p)
 https://livestream.mediacci.com/ccitv/index.m3u8
-#EXTINF:-1 tvg-id="Canal11.cr@SD" tvg-name="Canal 11 (720p)" tvg-logo="" group-title="北美洲/洪都拉斯",Canal 11 (720p)
-http://45.5.117.188:8000/play/a02w/index.m3u8
-# 备份1 | 时延 9999ms | 画质 HD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Canal11.gt@SD" tvg-name="Canal 11 (720p)" tvg-logo="" group-title="北美洲/洪都拉斯",Canal 11 (720p)
-http://179.60.224.196:8000/play/a0dv/index.m3u8
 #EXTINF:-1 tvg-id="HCH.hn@SD" tvg-name="HCH (720p)" tvg-logo="" group-title="北美洲/洪都拉斯",HCH (720p)
 http://45.228.234.9:8000/play/a06t/index.m3u8
 #EXTINF:-1 tvg-id="LaTop1029.hn@SD" tvg-name="La Top 102.9 (720p)" tvg-logo="" group-title="北美洲/洪都拉斯",La Top 102.9 (720p)
@@ -997,10 +997,10 @@ https://aegis-cloudfront-1.tubi.video/a0b550d8-29c6-49f5-a4f7-939d9eeec962/maste
 https://tgn.bozztv.com/vbstvcdn/vbstv/ngrp:vbstv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="VH1.HD.us2" tvg-name="VH1 (1080p)" tvg-logo="" group-title="北美洲/美国" tvg-id-orig="VH1.us@East",VH1 (1080p)
 http://23.237.104.106:8080/USA_VH1/index.m3u8
-#EXTINF:-1 tvg-id="VelayatTVNetwork.us@SD" tvg-name="Velayat TV (480p)" tvg-logo="" group-title="北美洲/美国",Velayat TV (480p)
-https://nl.livekadeh.com/hls2/velayattv.m3u8
 #EXTINF:-1 tvg-id="VICETV.us@SD" tvg-name="VICE TV (1080p)" tvg-logo="" group-title="北美洲/美国",VICE TV (1080p)
 http://23.237.104.106:8080/USA_VICETV/index.m3u8
+#EXTINF:-1 tvg-id="VelayatTVNetwork.us@SD" tvg-name="Velayat TV (480p)" tvg-logo="" group-title="北美洲/美国",Velayat TV (480p)
+https://nl.livekadeh.com/hls2/velayattv.m3u8
 #EXTINF:-1 tvg-id="VidaMejorTV.us@SD" tvg-name="Vida Mejor TV (480p)" tvg-logo="" group-title="北美洲/美国",Vida Mejor TV (480p)
 https://tgn.bozztv.com/betterlife/bettervida/bettervida/index.m3u8
 #EXTINF:-1 tvg-id="WGN-DT1 (720p)" tvg-name="WGN-DT1 (720p)" tvg-logo="" group-title="北美洲/美国",WGN-DT1 (720p)

@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
 # 欧洲电视直播 — eu.m3u
-# 生成时间: 2026-11-26 01:07:17
+# 生成时间: 2026-11-26 18:44:57
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
@@ -77,6 +77,8 @@ http://31.148.5.241/kanal_8/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="Carousel.cz" tvg-name="Carousel (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Carousel.ru@SD",Carousel (576p)
 http://88.212.15.50/live/test_karusel/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-name="Cartoon Classics" tvg-logo="" group-title="欧洲/俄罗斯",Cartoon Classics
+http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Channel 5 International (576i)" tvg-logo="" group-title="欧洲/俄罗斯",Channel 5 International (576i)
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" tvg-name="Channel One (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Channel One (576p)
@@ -1268,8 +1270,6 @@ http://92.114.85.87:8017/play/a004/index.m3u8
 http://92.114.85.87:8019/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusKuchnia.pl@SD" tvg-name="Canal+ Kuchnia (576i)" tvg-logo="" group-title="欧洲/波兰",Canal+ Kuchnia (576i)
 http://92.114.85.87:8019/play/a009/index.m3u8
-#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-name="Cartoon Classics" tvg-logo="" group-title="欧洲/波兰",Cartoon Classics
-http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="CrimePlusInvestigationPolsat.pl@SD" tvg-name="Crime + Investigation Polsat (576i)" tvg-logo="" group-title="欧洲/波兰",Crime + Investigation Polsat (576i)
 http://92.114.85.87:8015/play/a00d/index.m3u8
 #EXTINF:-1 tvg-id="Disco.Polo.Music.pl" tvg-name="Disco Polo Music (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="DiscoPoloMusic.pl@SD",Disco Polo Music (1080p)
