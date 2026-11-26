@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
 # 欧洲电视直播 — eu.m3u
-# 生成时间: 2026-11-25 18:56:26
+# 生成时间: 2026-11-26 01:07:17
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
@@ -114,11 +114,11 @@ https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="IndiyskoyeKino.ru@SD" tvg-name="Indiyskoye Kino (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Indiyskoye Kino (576p)
 http://188.113.190.12/329/index.m3u8
-#EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.fr@SD",Investigation Discovery
-http://192.99.186.30/stream/81/index.m3u8
-# 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.cz@SD",Investigation Discovery
 http://88.212.15.50/live/test_id_hevc_atktv/playlist.m3u8
+# 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.fr@SD",Investigation Discovery
+http://192.99.186.30/stream/81/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="Investigation.Discovery.dk" tvg-name="Investigation Discovery" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="InvestigationDiscovery.hu@SD",Investigation Discovery
 http://88.212.7.14/live/id_hun/index.m3u8
@@ -1420,6 +1420,8 @@ https://dash4.antik.sk/live/test_skynews/playlist.m3u8
 http://90.183.52.46:4000/play/a065/index.m3u8
 
 # ==================== 欧洲/瑞典 ====================
+#EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News (1080p)" tvg-logo="" group-title="欧洲/瑞典" tvg-id-orig="GBNews.uk@SD",GB News (1080p)
+https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8
 #EXTINF:-1 tvg-id="MissionAsia.au@SD" tvg-name="Mission Asia (1080p)" tvg-logo="" group-title="欧洲/瑞典",Mission Asia (1080p)
 https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8
 
@@ -1531,8 +1533,6 @@ http://23.237.104.106:8080/DAZN_3/index.m3u8
 http://45.186.240.164:9000/stream/54/index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@UnitedStates" tvg-name="FIFA+ United States (720p)" tvg-logo="" group-title="欧洲/英国",FIFA+ United States (720p)
 https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="GB.News.HD.uk" tvg-name="GB News (1080p)" tvg-logo="" group-title="欧洲/英国" tvg-id-orig="GBNews.uk@SD",GB News (1080p)
-https://hlspackager.akamaized.net/live/DB/GB_NEWS/HLS/GB_NEWS.m3u8
 #EXTINF:-1 tvg-id="GODTVAsia.uk@SD" tvg-name="GOD TV Asia (576p)" tvg-logo="" group-title="欧洲/英国",GOD TV Asia (576p)
 https://d1msejlow1t3l4.cloudfront.net/211125/godtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGlobal.uk@SD" tvg-name="MTV Global" tvg-logo="" group-title="欧洲/英国",MTV Global
