@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 # 北美电视直播 — us.m3u
-# 生成时间: 2026-11-26 18:44:57
+# 生成时间: 2026-11-27 18:37:15
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
 # EPG: https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz
-# 统计: 420 个频道 / 481 条有效线路
+# 统计: 419 个频道 / 480 条有效线路
 
 
 # ==================== 北美洲/其他 ====================
@@ -219,8 +219,6 @@ http://181.78.8.199:8000/play/a0bt/index.m3u8
 https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
 #EXTINF:-1 tvg-id="SkySports1.mx@SD" tvg-name="Sky Sports 1 (1080p)" tvg-logo="" group-title="北美洲/墨西哥",Sky Sports 1 (1080p)
 http://45.228.234.9:8000/play/a06b/index.m3u8
-#EXTINF:-1 tvg-id="TUDN.us2" tvg-name="TUDN (576p)" tvg-logo="" group-title="北美洲/墨西哥" tvg-id-orig="TUDN.mx@SD",TUDN (576p)
-http://45.5.118.152:8000/play/a08n/index.m3u8
 #EXTINF:-1 tvg-id="TeleHit.mx@SD" tvg-name="TeleHit (1080p)" tvg-logo="" group-title="北美洲/墨西哥",TeleHit (1080p)
 http://186.148.196.100:8000/play/a01s
 # 备份1 | 时延 9999ms | 画质 1080p/FHD | 来源 iptv-org

@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
 # 欧洲电视直播 — eu.m3u
-# 生成时间: 2026-11-26 18:44:57
+# 生成时间: 2026-11-27 18:37:15
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
@@ -77,8 +77,6 @@ http://31.148.5.241/kanal_8/index.m3u8
 # 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
 #EXTINF:-1 tvg-id="Carousel.cz" tvg-name="Carousel (576p)" tvg-logo="" group-title="欧洲/俄罗斯" tvg-id-orig="Carousel.ru@SD",Carousel (576p)
 http://88.212.15.50/live/test_karusel/playlist.m3u8
-#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-name="Cartoon Classics" tvg-logo="" group-title="欧洲/俄罗斯",Cartoon Classics
-http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="Channel5International.ru@SD" tvg-name="Channel 5 International (576i)" tvg-logo="" group-title="欧洲/俄罗斯",Channel 5 International (576i)
 https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru@SD" tvg-name="Channel One (576p)" tvg-logo="" group-title="欧洲/俄罗斯",Channel One (576p)
@@ -1196,23 +1194,6 @@ http://99.27.51.147:8080/Gulli/index.m3u8
 http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-id="Mezzo.Live.HD.fr" tvg-name="Mezzo Live" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="MezzoLive.fr@SD",Mezzo Live
 http://45.84.187.172:3001/udp/239.10.10.76:5000
-#EXTINF:-1 tvg-id="Nickelodeon.HD.gr" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.bg@SD",Nickelodeon
-http://87.120.179.187:8000/play/a00x
-# 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.HD.gr" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.bg@SD",Nickelodeon
-http://213.91.179.28:8000/play/a056
-# 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.cz@SD",Nickelodeon
-http://88.212.15.50/live/test_nickelodeon_hevc_25p/playlist.m3u8
-# 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.cz@SD",Nickelodeon
-http://193.33.39.108:9011/play/a018
-# 备份4 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.(hu).cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.hu@SD",Nickelodeon
-http://88.212.7.14/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
-# 备份5 | 时延 9999ms | 画质 SD | 来源 iptv-org
-#EXTINF:-1 tvg-id="Nickelodeon.(hu).cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nickelodeon.hu@SD",Nickelodeon
-http://193.33.39.108:9011/play/a017
 #EXTINF:-1 tvg-id="Nicktoons.cz" tvg-name="Nicktoons" tvg-logo="" group-title="欧洲/法国" tvg-id-orig="Nicktoons.cz@SD",Nicktoons
 http://88.212.15.50/live/test_nicktoons/playlist.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
@@ -1270,6 +1251,8 @@ http://92.114.85.87:8017/play/a004/index.m3u8
 http://92.114.85.87:8019/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="CanalPlusKuchnia.pl@SD" tvg-name="Canal+ Kuchnia (576i)" tvg-logo="" group-title="欧洲/波兰",Canal+ Kuchnia (576i)
 http://92.114.85.87:8019/play/a009/index.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-name="Cartoon Classics" tvg-logo="" group-title="欧洲/波兰",Cartoon Classics
+http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="CrimePlusInvestigationPolsat.pl@SD" tvg-name="Crime + Investigation Polsat (576i)" tvg-logo="" group-title="欧洲/波兰",Crime + Investigation Polsat (576i)
 http://92.114.85.87:8015/play/a00d/index.m3u8
 #EXTINF:-1 tvg-id="Disco.Polo.Music.pl" tvg-name="Disco Polo Music (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="DiscoPoloMusic.pl@SD",Disco Polo Music (1080p)
@@ -1331,6 +1314,23 @@ http://88.212.15.50/live/test_hbo3_hd_hevc/playlist.m3u8
 http://92.114.85.87:8016/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="NewsmaxPolska.pl@SD" tvg-name="Newsmax Polska (576i)" tvg-logo="" group-title="欧洲/波兰",Newsmax Polska (576i)
 http://92.114.85.87:8014/play/a006/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.HD.gr" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Nickelodeon.bg@SD",Nickelodeon
+http://87.120.179.187:8000/play/a00x
+# 备份1 | 时延 9999ms | 画质 SD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Nickelodeon.HD.gr" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Nickelodeon.bg@SD",Nickelodeon
+http://213.91.179.28:8000/play/a056
+# 备份2 | 时延 9999ms | 画质 SD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Nickelodeon.cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Nickelodeon.cz@SD",Nickelodeon
+http://88.212.15.50/live/test_nickelodeon_hevc_25p/playlist.m3u8
+# 备份3 | 时延 9999ms | 画质 SD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Nickelodeon.cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Nickelodeon.cz@SD",Nickelodeon
+http://193.33.39.108:9011/play/a018
+# 备份4 | 时延 9999ms | 画质 SD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Nickelodeon.(hu).cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Nickelodeon.hu@SD",Nickelodeon
+http://88.212.7.14/live/test_nickelodeon_hu_1200_atk/playlist.m3u8
+# 备份5 | 时延 9999ms | 画质 SD | 来源 iptv-org
+#EXTINF:-1 tvg-id="Nickelodeon.(hu).cz" tvg-name="Nickelodeon" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Nickelodeon.hu@SD",Nickelodeon
+http://193.33.39.108:9011/play/a017
 #EXTINF:-1 tvg-id="Nowa.TV.HD.pl" tvg-name="Nowa TV (1080p)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="NowaTV.pl@SD",Nowa TV (1080p)
 http://92.114.85.87:8001/play/a013/index.m3u8
 #EXTINF:-1 tvg-id="Polonia.1.HD.pl" tvg-name="Polonia 1 (576i)" tvg-logo="" group-title="欧洲/波兰" tvg-id-orig="Polonia1.pl@SD",Polonia 1 (576i)

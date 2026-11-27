@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_hk.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz,https://cdn.jsdelivr.net/gh/CCSH/IPTV@main/e.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz"
 # 中国电视直播 — cn.m3u
-# 生成时间: 2026-11-26 18:44:57
+# 生成时间: 2026-11-27 18:37:15
 # 信源: iptv-org/iptv, vbskycn/iptv, hujingguang/ChinaIPTV, zhi35/iptv, CCSH/IPTV, akiralereal/iptv
 # 目录: group-title 采用两级路径，国内=省/市，国外=洲/国（以 / 分隔，播放器可显示为树状分组）
 # 线路: 同一频道首个为首选，其后为备份；仅保留已验证白名单链接，按画质排序
 # EPG: https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_cn.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_hk.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz,https://cdn.jsdelivr.net/gh/CCSH/IPTV@main/e.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz
-# 统计: 274 个频道 / 563 条有效线路
+# 统计: 272 个频道 / 561 条有效线路
 
 
 # ==================== 中国/上海市/省级频道 ====================
@@ -345,6 +345,8 @@ http://124.88.144.73:1935/live/xwzh/playlist.m3u8?zxinjd
 http://218.84.12.186:8002/hls/main/playlist.m3u8?zxinjd
 #EXTINF:-1 tvg-id="璧山综合" tvg-name="璧山综合" tvg-logo="https://livecdn.zbds.org/logo/璧山综合.png" group-title="中国/中央/地方频道",璧山综合
 http://222.179.42.129:8181/hls1.m3u8
+#EXTINF:-1 tvg-id="539892" tvg-name="西安都市" tvg-logo="https://tb.zbds.top/logo/西安都市.png" group-title="中国/中央/地方频道" tvg-id-orig="西安都市",西安都市
+http://112.46.105.20:8009/hls/29/index.m3u8
 
 # ==================== 中国/中央/央视 ====================
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV13.png" group-title="中国/中央/央视" tvg-id-orig="CCTV-13 (1080p)",CCTV13
@@ -590,8 +592,6 @@ http://173.208.212.130:8181/720p/hjjc.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 CCSH
 #EXTINF:-1 tvg-id="583702" tvg-name="怀旧剧场" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/怀旧剧场.png" group-title="中国/中央/央视" tvg-id-orig="怀旧剧场",怀旧剧场
 http://111.61.236.247:9081/hls/67/index.m3u8
-#EXTINF:-1 tvg-id="izbds" tvg-name="支持作者" tvg-logo="" group-title="中国/中央/央视",支持作者
-https://vd2.bdstatic.com/mda-sctj0f6r4u1bpebc/1080p/cae_h264/1774706523506678171/mda-sctj0f6r4u1bpebc.mp4
 #EXTINF:-1 tvg-id="电视指南" tvg-name="电视指南" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/电视指南.png" group-title="中国/中央/央视",电视指南
 http://173.208.212.130:8181/720p/dszn.m3u8
 # 备份1 | 时延 9999ms | 画质 SD | 来源 CCSH
@@ -724,8 +724,6 @@ https://stream2.jlntv.cn/baishan1/sd/live.m3u8
 http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8
 #EXTINF:-1 tvg-id="蕭山生活頻道 (720p) [Not 24/7]" tvg-name="蕭山生活頻道 (720p) [Not 24/7]" tvg-logo="" group-title="中国/中央/央视与卫视",蕭山生活頻道 (720p) [Not 24/7]
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan2/720p.m3u8
-#EXTINF:-1 tvg-id="西安新闻" tvg-name="西安新闻" tvg-logo="https://tb.zbds.top/logo/西安新闻.png" group-title="中国/中央/央视与卫视",西安新闻
-http://112.46.105.20:8009/hls/28/index.m3u8
 #EXTINF:-1 tvg-id="辽源新闻综合 [Geo-blocked]" tvg-name="辽源新闻综合 [Geo-blocked]" tvg-logo="" group-title="中国/中央/央视与卫视",辽源新闻综合 [Geo-blocked]
 https://stream2.jlntv.cn/liaoyuan1/sd/live.m3u8
 #EXTINF:-1 tvg-id="集安综合 [Geo-blocked]" tvg-name="集安综合 [Geo-blocked]" tvg-logo="" group-title="中国/中央/央视与卫视",集安综合 [Geo-blocked]
@@ -748,6 +746,10 @@ https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/1080p/index.m
 # ==================== 中国/中央/春晚频道 ====================
 #EXTINF:-1 tvg-id="2018年春晚" tvg-name="2018年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="中国/中央/春晚频道",2018年春晚
 https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
+
+# ==================== 中国/中央/更新时间 ====================
+#EXTINF:-1 tvg-id="更新时间" tvg-name="2026-11-27 20:11:39" tvg-logo="" group-title="中国/中央/更新时间",2026-11-27 20:11:39
+https://vd2.bdstatic.com/mda-sctj0f6r4u1bpebc/1080p/cae_h264/1774706523506678171/mda-sctj0f6r4u1bpebc.mp4
 
 # ==================== 中国/中央/游戏频道 ====================
 #EXTINF:-1 tvg-id="游戏风云" tvg-name="游戏风云" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/游戏风云.png" group-title="中国/中央/游戏频道",游戏风云
@@ -1237,7 +1239,7 @@ https://ali-xwl.cztv.com/live/channel071080Plxw.m3u8
 # 备份2 | 时延 9999ms | 画质 1080p/FHD | 来源 iptv-org
 #EXTINF:-1 tvg-id="浙江新闻" tvg-name="浙江新闻" tvg-logo="" group-title="中国/浙江省/省级频道",浙江新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-# 备份3 | 时延 9999ms | 画质 1080p/FHD | 来源 zhi35
+# 备份3 | 时延 9999ms | 画质 1080p/FHD | 来源 vbskycn
 #EXTINF:-1 tvg-id="浙江新闻频道" tvg-name="浙江新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江新闻.png" group-title="中国/浙江省/省级频道",浙江新闻
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?
 # 备份4 | 时延 9999ms | 画质 SD | 来源 CCSH
@@ -1245,9 +1247,9 @@ https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?
 http://124.90.45.52:9901/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="浙江民生" tvg-name="浙江民生" tvg-logo="" group-title="中国/浙江省/省级频道",浙江民生
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
-#EXTINF:-1 tvg-id="浙江民生休闲" tvg-name="浙江民生休闲" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/浙江民生休闲.png" group-title="中国/浙江省/省级频道",浙江民生休闲
+# 备份1 | 时延 9999ms | 画质 1080p/FHD | 来源 vbskycn
+#EXTINF:-1 tvg-id="浙江民生" tvg-name="浙江民生" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江民生.png" group-title="中国/浙江省/省级频道",浙江民生
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8?
-# 备份1 | 时延 9999ms | 画质 HD | 来源 CCSH
 #EXTINF:-1 tvg-id="浙江民生休闲" tvg-name="浙江民生休闲" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/浙江民生休闲.png" group-title="中国/浙江省/省级频道",浙江民生休闲
 https://ali-xwl.cztv.com/live/channel06720Pnew.m3u8
 #EXTINF:-1 tvg-id="浙江生活" tvg-name="浙江生活" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/浙江生活.png" group-title="中国/浙江省/省级频道",浙江生活
@@ -1482,11 +1484,7 @@ http://218.13.139.26:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 # 备份3 | 时延 9999ms | 画质 SD | 来源 CCSH
 #EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/陕西卫视.png" group-title="中国/陕西省/省级频道",陕西卫视
 http://124.90.45.52:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="陕西新闻咨询" tvg-name="陕西新闻咨询" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shanxi1.png" group-title="中国/陕西省/省级频道",陕西新闻咨询
-http://112.46.105.20:8009/hls/18/index.m3u8
-#EXTINF:-1 tvg-id="陕西秦腔" tvg-name="陕西秦腔" tvg-logo="https://tb.zbds.top/logo/陕西秦腔.png" group-title="中国/陕西省/省级频道",陕西秦腔
-http://112.46.105.20:8009/hls/22/index.m3u8
-#EXTINF:-1 tvg-id="陕西都市青春" tvg-name="陕西都市青春" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shanxi2.png" group-title="中国/陕西省/省级频道",陕西都市青春
+#EXTINF:-1 tvg-id="陕西都市青春" tvg-name="陕西都市青春" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/陕西都市青春.png" group-title="中国/陕西省/省级频道",陕西都市青春
 http://112.46.105.20:8009/hls/19/index.m3u8
 
 # ==================== 中国/青海省/省级频道 ====================
